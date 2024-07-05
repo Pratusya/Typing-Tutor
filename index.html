@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Speed Typing Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <main class="typing-area">
+            <header>
+                <h1>Speed Typing Test</h1>
+                <div class="test-config">
+                    <div class="config-item">
+                        <label for="time-select">Duration:</label>
+                        <select id="time-select">
+                            <option value="30">30s</option>
+                            <option value="60" selected>60s</option>
+                            <option value="120">120s</option>
+                            <option value="300">300s</option>
+                        </select>
+                    </div>
+                    <div class="config-item">
+                        <label for="difficulty-select">Difficulty:</label>
+                        <select id="difficulty-select">
+                            <option value="easy">Easy</option>
+                            <option value="medium" selected>Medium</option>
+                            <option value="hard">Hard</option>
+                        </select>
+                    </div>
+                    <div class="config-item">
+                        <label for="backspace-toggle">Backspace:</label>
+                        <label class="switch">
+                            <input type="checkbox" id="backspace-toggle" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+            </header>
+            <div id="text-display" class="text-display" tabindex="0">
+                <div class="text-content"></div>
+                <div class="cursor"></div>
+            </div>
+            <button id="reset-btn" class="reset-btn">Reset Test</button>
+        </main>
+        <aside class="sidebar">
+            <div class="stats-panel">
+                <div class="stat-item">
+                    <i class="fas fa-clock"></i>
+                    <span id="time-left">60</span>s
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span id="wpm">0</span> WPM
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-keyboard"></i>
+                    <span id="cpm">0</span> CPM
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-times-circle"></i>
+                    <span id="errors">0</span> Errors
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-backspace"></i>
+                    <span id="backspace-count">0</span> Backspaces
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-bullseye"></i>
+                    <span id="accuracy">100</span>% Accuracy
+                </div>
+            </div>
+            <div class="history-panel">
+                <h2>Test History</h2>
+                <ul id="history-list"></ul>
+            </div>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
