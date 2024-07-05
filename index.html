@@ -15,13 +15,9 @@
                 <h1>Speed Typing Test</h1>
                 <div class="test-config">
                     <div class="config-item">
-                        <label for="time-select">Duration:</label>
-                        <select id="time-select">
-                            <option value="30">30s</option>
-                            <option value="60" selected>60s</option>
-                            <option value="120">120s</option>
-                            <option value="300">300s</option>
-                        </select>
+                        <label for="time-input">Duration:</label>
+                        <input type="number" id="time-input" min="10" max="3600" value="60">
+                        <span id="time-unit">seconds</span>
                     </div>
                     <div class="config-item">
                         <label for="difficulty-select">Difficulty:</label>
@@ -50,7 +46,7 @@
             <div class="stats-panel">
                 <div class="stat-item">
                     <i class="fas fa-clock"></i>
-                    <span id="time-left">60</span>s
+                    <span id="time-left">60</span>
                 </div>
                 <div class="stat-item">
                     <i class="fas fa-tachometer-alt"></i>

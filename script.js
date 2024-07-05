@@ -43,7 +43,8 @@ const cpmDisplay = document.getElementById('cpm');
 const errorsDisplay = document.getElementById('errors');
 const resetBtn = document.getElementById('reset-btn');
 const historyList = document.getElementById('history-list');
-const timeSelect = document.getElementById('time-select');
+const timeInput = document.getElementById('time-input');
+const timeUnit = document.getElementById('time-unit');
 const backspaceToggle = document.getElementById('backspace-toggle');
 const difficultySelect = document.getElementById('difficulty-select');
 
@@ -69,14 +70,41 @@ let backspaceData = [];
 let errorData = [];
 let timeData = [];
 
+function updateTimeUnit() {
+    const value = parseInt(timeInput.value) || 60;
+    if (value >= 3600) {
+        timeUnit.textContent = 'hour';
+        timeInput.step = '1';
+        timeInput.max = '24'; // Max 24 hours
+    } else {
+        timeUnit.textContent = 'seconds';
+        timeInput.step = '10';
+        timeInput.max = '3590'; // Max 3590 seconds (59 minutes and 50 seconds)
+    }
+    timeInput.value = Math.min(Math.max(value, 10), parseInt(timeInput.max));
+    initTest();
+}
+
+timeInput.addEventListener('change', () => {
+    let value = parseInt(timeInput.value) || 60;
+    if (timeUnit.textContent === 'hour') {
+        value = Math.min(Math.max(value, 1), 24); // Between 1 and 24 hours
+    } else {
+        value = Math.min(Math.max(value, 10), 3590); // Between 10 and 3590 seconds
+    }
+    timeInput.value = value;
+    updateTimeUnit();
+    initTest();
+});
+
 function disableControls() {
-    timeSelect.disabled = true;
+    timeInput.disabled = true;
     difficultySelect.disabled = true;
     backspaceToggle.disabled = true;
 }
 
 function enableControls() {
-    timeSelect.disabled = false;
+    timeInput.disabled = false;
     difficultySelect.disabled = false;
     backspaceToggle.disabled = false;
 }
@@ -117,7 +145,6 @@ function initTest() {
     textDisplay.appendChild(textContent);
     textDisplay.appendChild(cursor);
 
-    // Position the cursor at the start of the text
     const firstChar = textContent.querySelector('span');
     if (firstChar) {
         const rect = firstChar.getBoundingClientRect();
@@ -126,8 +153,13 @@ function initTest() {
         cursor.style.left = `${rect.left - containerRect.left}px`;
     }
 
-    timeRemaining = parseInt(timeSelect.value);
-    timeLeft.textContent = timeRemaining;
+    let inputTime = parseInt(timeInput.value) || 60;
+    if (timeUnit.textContent === 'hour') {
+        inputTime *= 3600; // Convert hour to seconds
+    }
+    timeRemaining = inputTime;
+    
+    updateTimerDisplay();
     typedCharacters = 0;
     errors = 0;
     currentIndex = 0;
@@ -149,17 +181,32 @@ function initTest() {
     textDisplay.removeEventListener('keydown', handleKeyDown);
     textDisplay.addEventListener('keydown', handleKeyDown);
 
-    // Highlight the first character
     textContent.querySelector('span').classList.add('active');
 
     enableControls();
 }
+
+function updateTimerDisplay() {
+    if (timeRemaining >= 3600) {
+        const hours = Math.floor(timeRemaining / 3600);
+        const minutes = Math.floor((timeRemaining % 3600) / 60);
+        const seconds = timeRemaining % 60;
+        timeLeft.textContent = `${hours}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    } else if (timeRemaining >= 60) {
+        const minutes = Math.floor(timeRemaining / 60);
+        const seconds = timeRemaining % 60;
+        timeLeft.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+    } else {
+        timeLeft.textContent = timeRemaining;
+    }
+}
+
 function startTimer() {
     startTime = new Date();
     timer = setInterval(() => {
         if (timeRemaining > 0) {
             timeRemaining--;
-            timeLeft.textContent = timeRemaining;
+            updateTimerDisplay();
             updateStats();
         } else {
             endTest();
@@ -171,7 +218,6 @@ function calculateAccuracy() {
     if (!hasStartedTyping) return 100;
     return typedCharacters > 0 ? Math.round(((typedCharacters - errors) / typedCharacters) * 100) : 100;
 }
-;
 
 function updateStats() {
     const timeElapsed = Math.max((new Date() - startTime) / 1000 / 60, 0.001);
@@ -339,7 +385,6 @@ function handleKeyDown(e) {
             textDisplay.querySelector('.cursor').style.top = `${cursorTop}px`;
             textDisplay.querySelector('.cursor').style.left = `${cursorLeft}px`;
         }
-
         if (currentIndex === currentText.length) {
             endTest();
         }
@@ -350,7 +395,8 @@ function handleKeyDown(e) {
 }
 
 resetBtn.addEventListener('click', initTest);
-timeSelect.addEventListener('change', initTest);
 difficultySelect.addEventListener('change', initTest);
 
+// Call this function when the page loads
+updateTimeUnit();
 initTest();
