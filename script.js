@@ -36,6 +36,7 @@ const hardParagraphs = [
     "The philosophical implications of the many-worlds interpretation of quantum mechanics challenge our fundamental notions of reality, causality, and the nature of consciousness, raising profound questions about the structure of the multiverse and our place within it.",
 ];
 
+
 const textDisplay = document.getElementById('text-display');
 const timeLeft = document.getElementById('time-left');
 const wpmDisplay = document.getElementById('wpm');
@@ -184,6 +185,7 @@ function initTest() {
     textContent.querySelector('span').classList.add('active');
 
     enableControls();
+    handleResponsiveLayout();
 }
 
 function updateTimerDisplay() {
@@ -394,9 +396,29 @@ function handleKeyDown(e) {
     }
 }
 
+function handleResponsiveLayout() {
+    const container = document.querySelector('.container');
+    const typingArea = document.querySelector('.typing-area');
+    const sidebar = document.querySelector('.sidebar');
+
+    if (window.innerWidth <= 1200) {
+        container.style.height = 'auto';
+        typingArea.style.height = 'auto';
+        sidebar.style.height = 'auto';
+    } else {
+        container.style.height = '100vh';
+        typingArea.style.height = '100%';
+        sidebar.style.height = '100vh';
+    }
+}
+
 resetBtn.addEventListener('click', initTest);
 difficultySelect.addEventListener('change', initTest);
 
-// Call this function when the page loads
+// Call this function when the page loads and on window resize
+window.addEventListener('load', handleResponsiveLayout);
+window.addEventListener('resize', handleResponsiveLayout);
+
+// Initialize the test when the page loads
 updateTimeUnit();
 initTest();

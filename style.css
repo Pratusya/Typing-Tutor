@@ -248,21 +248,6 @@ select, input[type="checkbox"] {
     height: auto;
 }
 
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 100%;
-        order: -1;
-    }
-
-    .typing-area {
-        height: 60vh;
-    }
-}
-
 /* Slider Toggle */
 .switch {
     position: relative;
@@ -317,4 +302,82 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        order: -1;
+    }
+
+    .typing-area {
+        height: auto;
+        min-height: 60vh;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .typing-area {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .text-display {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .test-config {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .config-item {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .stats-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-item {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .typing-area {
+        padding: 0.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .text-display {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .reset-btn {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .sidebar {
+        padding: 1rem;
+    }
 }
