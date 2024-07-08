@@ -36,7 +36,6 @@ const hardParagraphs = [
     "The philosophical implications of the many-worlds interpretation of quantum mechanics challenge our fundamental notions of reality, causality, and the nature of consciousness, raising profound questions about the structure of the multiverse and our place within it.",
 ];
 
-
 const textDisplay = document.getElementById('text-display');
 const timeLeft = document.getElementById('time-left');
 const wpmDisplay = document.getElementById('wpm');
@@ -71,16 +70,29 @@ let backspaceData = [];
 let errorData = [];
 let timeData = [];
 
+function disableTextSelection(element) {
+    element.style.userSelect = 'none';
+    element.style.webkitUserSelect = 'none';
+    element.style.msUserSelect = 'none';
+    element.style.mozUserSelect = 'none';
+}
+
+function disableContextMenu(element) {
+    element.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+    });
+}
+
 function updateTimeUnit() {
     const value = parseInt(timeInput.value) || 60;
     if (value >= 3600) {
         timeUnit.textContent = 'hour';
         timeInput.step = '1';
-        timeInput.max = '24'; // Max 24 hours
+        timeInput.max = '24';
     } else {
         timeUnit.textContent = 'seconds';
         timeInput.step = '10';
-        timeInput.max = '3590'; // Max 3590 seconds (59 minutes and 50 seconds)
+        timeInput.max = '3590';
     }
     timeInput.value = Math.min(Math.max(value, 10), parseInt(timeInput.max));
     initTest();
@@ -89,9 +101,9 @@ function updateTimeUnit() {
 timeInput.addEventListener('change', () => {
     let value = parseInt(timeInput.value) || 60;
     if (timeUnit.textContent === 'hour') {
-        value = Math.min(Math.max(value, 1), 24); // Between 1 and 24 hours
+        value = Math.min(Math.max(value, 1), 24);
     } else {
-        value = Math.min(Math.max(value, 10), 3590); // Between 10 and 3590 seconds
+        value = Math.min(Math.max(value, 10), 3590);
     }
     timeInput.value = value;
     updateTimeUnit();
@@ -139,6 +151,9 @@ function initTest() {
     textContent.className = 'text-content';
     textContent.innerHTML = currentText.split('').map(char => `<span>${char}</span>`).join('');
     
+    disableTextSelection(textContent);
+    disableContextMenu(textContent);
+
     const cursor = document.createElement('div');
     cursor.className = 'cursor';
 
@@ -156,7 +171,7 @@ function initTest() {
 
     let inputTime = parseInt(timeInput.value) || 60;
     if (timeUnit.textContent === 'hour') {
-        inputTime *= 3600; // Convert hour to seconds
+        inputTime *= 3600;
     }
     timeRemaining = inputTime;
     
@@ -337,8 +352,33 @@ function endTest() {
     const accuracy = calculateAccuracy();
     addToHistory(finalWpm, finalCpm, accuracy, errors, backspaceCount);
     showResultPopup(finalWpm, finalCpm, errors, backspaceCount, accuracy);
+    saveHistoryToDatabase(finalWpm, finalCpm, accuracy, errors, backspaceCount);
     textDisplay.removeEventListener('keydown', handleKeyDown);
     enableControls();
+}
+function saveHistoryToDatabase(wpm, cpm, accuracy, errors, backspaces) {
+    const data = new URLSearchParams();
+    data.append('wpm', wpm);
+    data.append('cpm', cpm);
+    data.append('accuracy', accuracy);
+    data.append('errors', errors);
+    data.append('backspaces', backspaces);
+
+    fetch('save_history.php', {
+        method: 'POST',
+        body: data,
+    })
+    .then(response => response.json())
+    .then(result => {
+        if (result.success) {
+            console.log('History saved successfully');
+        } else {
+            console.error('Error saving history:', result.error);
+        }
+    })
+    .catch(error => {
+        console.error('Error saving history:', error);
+    });
 }
 
 function handleKeyDown(e) {
@@ -415,10 +455,45 @@ function handleResponsiveLayout() {
 resetBtn.addEventListener('click', initTest);
 difficultySelect.addEventListener('change', initTest);
 
-// Call this function when the page loads and on window resize
 window.addEventListener('load', handleResponsiveLayout);
 window.addEventListener('resize', handleResponsiveLayout);
+
+document.addEventListener('copy', (e) => {
+    if (isTestActive) {
+        e.preventDefault();
+    }
+});
 
 // Initialize the test when the page loads
 updateTimeUnit();
 initTest();
+
+// Hamburger menu functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger-menu');
+    const nav = document.querySelector('.main-header nav');
+    
+    hamburger.addEventListener('click', function() {
+        hamburger.classList.toggle('open');
+        nav.classList.toggle('open');
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+        const isClickInsideNav = nav.contains(event.target);
+        const isClickOnHamburger = hamburger.contains(event.target);
+        
+        if (!isClickInsideNav && !isClickOnHamburger && nav.classList.contains('open')) {
+            nav.classList.remove('open');
+            hamburger.classList.remove('open');
+        }
+    });
+    
+    // Close menu when window is resized to larger than mobile breakpoint
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) {
+            nav.classList.remove('open');
+            hamburger.classList.remove('open');
+        }
+    });
+});
