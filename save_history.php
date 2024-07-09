@@ -9,10 +9,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['username'])) {
     $accuracy = floatval($_POST['accuracy']);
     $errors = intval($_POST['errors']);
     $backspaces = intval($_POST['backspaces']);
-    $date = date('Y-m-d H:i:s');
+    $create_datetime = date("Y-m-d H:i:s");
 
-    $stmt = $con->prepare("INSERT INTO typing_history (username, wpm, cpm, accuracy, errors, backspaces, date) VALUES (?, ?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param("siidiii", $username, $wpm, $cpm, $accuracy, $errors, $backspaces, $date);
+    $stmt = $con->prepare("INSERT INTO typing_history (username, wpm, cpm, accuracy, errors, backspaces, create_datetime) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("siidiii", $username, $wpm, $cpm, $accuracy, $errors, $backspaces, $create_datetime);
 
     if ($stmt->execute()) {
         echo json_encode(['success' => true]);
