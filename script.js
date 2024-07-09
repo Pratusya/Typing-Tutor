@@ -363,6 +363,10 @@ function saveHistoryToDatabase(wpm, cpm, accuracy, errors, backspaces) {
     data.append('accuracy', accuracy);
     data.append('errors', errors);
     data.append('backspaces', backspaces);
+    
+    // Add current date and time
+    const now = new Date();
+    data.append('timestamp', now.toISOString());
 
     fetch('save_history.php', {
         method: 'POST',
