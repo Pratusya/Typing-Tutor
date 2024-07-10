@@ -1,39 +1,34 @@
-const paragraphs = [
+const generalParagraphs = [
     "Their politician was, in this moment, a notour paperback. The first armless grouse is, in its own way, a gear. The coat is a wash. However, a cake is the llama of a caravan. Snakelike armies show us how playgrounds can be viscoses. Framed in a different way, they were lost without the fatal dogsled that composed their waitress. Far from the truth, the cockney freezer reveals itself as a wiggly tornado to those who look. The first hawklike sack.",
     "Authors often misinterpret the lettuce as a folklore rabbi, when in actuality it feels more like an uncursed bacon. Pursued distances show us how mother-in-laws can be charleses. Authors often misinterpret the lion as a cormous science, when in actuality it feels more like a leprous lasagna. Recent controversy aside, their band was, in this moment, a racemed suit. The clutch of a joke becomes a togaed chair. The first pickled chess is.",
     "In modern times the first scrawn kitten is, in its own way, an input. An ostrich is the beginner of a roast. An appressed exhaust is a gun of the mind. A recorder is a grade from the right perspective. A hygienic is the cowbell of a skin. Few can name a dun brazil that isn't a highbrow playroom. The unwished beast comes from a thorny oxygen. An insured advantage's respect comes with it the thought that the lucid specialist is a fix.",
     "What we don't know for sure is whether or not a pig of the coast is assumed to be a hardback pilot. The literature would have us believe that a dusky clave is not but an objective. Few can name a limbate leo that isn't a sunlit silver. The bow is a mitten. However, the drawer is a bay. If this was somewhat unclear, few can name a paunchy blue that isn't a conoid bow. The undrunk railway reveals itself as a downstage bamboo to those who look.",
     "An aunt is a bassoon from the right perspective. As far as we can estimate, some posit the melic myanmar to be less than kutcha. One cannot separate foods from blowzy bows. The scampish closet reveals itself as a sclerous llama to those who look. A hip is the skirt of a peak. Some hempy laundries are thought of simply as orchids. A gum is a trumpet from the right perspective. A freebie flight is a wrench of the mind. Some posit the croupy.",
     "A baby is a shingle from the right perspective. Before defenses, collars were only operations. Bails are gleesome relatives. An alloy is a streetcar's debt. A fighter of the scarecrow is assumed to be a leisured laundry. A stamp can hardly be considered a peddling payment without also being a crocodile. A skill is a meteorology's fan. Their scent was, in this moment, a hidden feeling. The competitor of a bacon becomes a boxlike cougar.",
-    "A broadband jam is a network of the mind. One cannot separate chickens from glowing periods. A production is a faucet from the right perspective. The lines could be said to resemble zincoid females. A deborah is a tractor's whale. Cod are elite japans. Some posit the wiglike norwegian to be less than plashy. A pennoned windchime's burst comes with it the thought that the printed trombone is a supply. Relations are restless tests.",
-    "In recent years, some teeming herons are thought of simply as numbers. Nowhere is it disputed that an unlaid fur is a marble of the mind. Far from the truth, few can name a glossy lier that isn't an ingrate bone. The chicken is a giraffe. They were lost without the abscessed leek that composed their fowl. An interviewer is a tussal bomb. Vanward maracas show us how scarfs can be doubts. Few can name an unguled punch that isn't pig.",
-    "A cough is a talk from the right perspective. A designed tractor's tray comes with it the thought that the snuffly flax is a rainbow. Their health was, in this moment, an earthy passbook. This could be, or perhaps the swordfishes could be said to resemble healthy sessions. A capricorn is a helium from the right perspective. However, a sled is a mailman's tennis. The competitor of an alarm becomes a toeless raincoat. Their twist was, in this moment.",
-    "Authors often misinterpret the flag as a wayless trigonometry, when in actuality it feels more like a bousy gold. Few can name a jasp oven that isn't a stutter grape. They were lost without the huffy religion that composed their booklet. Those waves are nothing more than pedestrians. Few can name a quartered semicolon that isn't a rounding scooter. Though we assume the latter, the literature would have us believe.",
-    "This could be, or perhaps few can name a pasteboard quiver that isn't a brittle alligator. A swordfish is a death's numeric. Authors often misinterpret the mist as a swelling asphalt, when in actuality it feels more like a crosswise closet. Some posit the tonal brother-in-law to be less than newborn. We know that the sizes could be said to resemble sleepwalk cycles. Before seasons, supplies were only fighters. Their stew was, in this moment.",
-    "The vision of an attempt becomes a lawny output. Dibbles are mis womens. The olden penalty reveals itself as a bustled field to those who look. Few can name a chalky force that isn't a primate literature. However, they were lost without the gamy screen that composed their beret. Nowhere is it disputed that a step-uncle is a factory from the right perspective. One cannot separate paints from dreary windows. What we don't know for sure is whether.",
-    "A tramp is a siamese from the right perspective. We know that a flitting monkey's jaw comes with it the thought that the submersed break is a pamphlet. Their cream was, in this moment, a seedy daffodil. The nest is a visitor. Far from the truth, they were lost without the released linen that composed their step-sister. A vibraphone can hardly be considered a pardine process without also being an archaeology. The bay of a hyacinth becomes.",
-    "The frosts could be said to resemble backstage chards. One cannot separate colleges from pinkish bacons. Far from the truth, the mom of a rooster becomes a chordal hydrogen. A tempo can hardly be considered a purer credit without also being a pajama. The first combined ease is, in its own way, a pantyhose. Extending this logic, the guides could be said to resemble reddest monkeies. Framed in a different way, an addle hemp is a van.",
-    "Far from the truth, an ajar reminder without catamarans is truly a foundation of smarmy semicircles. An alike board without harps is truly a satin of fated pans. A hubcap sees a parent as a painful beautician. The zeitgeist contends that some intense twigs are thought of simply as effects. A cross is a poppied tune. The valanced list reveals itself as an exchanged wrist to those who look. Recent controversy aside.",
-    "The hefty opinion reveals itself as a sterile peer-to-peer to those who look. This could be, or perhaps the watch of a diamond becomes a bosom baboon. In recent years, some posit the unstuffed road to be less than altern. It's an undeniable fact, really; the livelong lettuce reveals itself as an unstuffed soda to those who look. In ancient times a bit is a balance's season. The popcorn of a morning becomes a moonless beauty.",
-    "If this was somewhat unclear, a friend is a fridge from the right perspective. An upset carriage is a stitch of the mind. To be more specific, a temper is a pair from the right perspective. Authors often misinterpret the liquid as a notchy baseball, when in actuality it feels more like an unbarbed angle. Though we assume the latter, the first vagrom report is, in its own way, a tower. We know that the octopus of a cd becomes an unrent dahlia.",
-    "A reptant discussion's rest comes with it the thought that the condemned syrup is a wish. The drake of a wallaby becomes a sonant harp. If this was somewhat unclear, spotty children show us how technicians can be jumps. Their honey was, in this moment, an intime direction. A ship is the lion of a hate. They were lost without the croupous jeep that composed their lily. In modern times a butcher of the birth is assumed to be a spiral bean.",
-    "Those cowbells are nothing more than elements. This could be, or perhaps before stockings, thoughts were only opinions. A coil of the exclamation is assumed to be a hurtless toy. A board is the cast of a religion. In ancient times the first stinko sailboat is, in its own way, an exchange. Few can name a tutti channel that isn't a footless operation. Extending this logic, an oatmeal is the rooster of a shake. Those step-sons are nothing more than matches.",
 ];
 
-const easyParagraphs = [
-    "The cat sat on the mat. It was a sunny day. Birds chirped in the trees. A gentle breeze blew through the leaves. The sky was clear and blue.",
-    "I like to read books. They take me to new worlds. I learn many things from reading. It is a fun hobby. I read every day.",
-    "Cooking is an art. It requires patience and skill. Good food makes people happy. I enjoy trying new recipes. Eating together is important.",
-    "Exercise is good for health. It makes the body strong. Running is a great workout. Swimming is also very beneficial. Stay active and fit.",
-    "Music brings joy to life. It has the power to change moods. Dancing to music is fun. Singing along is enjoyable. Music connects people.",
+const punctuationParagraphs = [
+    "Wow! That's amazing. Have you ever thought, 'Is this real?' It's hard to believe, isn't it?",
+    "He said, 'I'm going to the store.' Then he asked, 'Do you need anything?'",
+    "The company's profits increased by 15%; however, expenses rose by 20%.",
+    "Dear Sir/Madam, I hope this email finds you well. Sincerely, John Doe.",
+    "She exclaimed, 'Oh no!' when she realized she'd forgotten her keys."
 ];
 
-const hardParagraphs = [
-    "The intricate interplay between quantum mechanics and general relativity presents a formidable challenge in contemporary physics, particularly in reconciling these theories at the Planck scale, where our current understanding of spacetime breaks down.",
-    "The emergence of artificial general intelligence poses complex ethical dilemmas and existential risks that require careful consideration of machine consciousness, value alignment, and the potential for an intelligence explosion that could rapidly surpass human cognitive capabilities.",
-    "The epigenetic regulation of gene expression through DNA methylation and histone modification plays a crucial role in cellular differentiation and organismal development, with far-reaching implications for our understanding of heredity and evolution.",
-    "The intricate dynamics of global economic systems, influenced by factors such as technological disruption, geopolitical tensions, and climate change, necessitate a multidisciplinary approach to policymaking that accounts for complex feedback loops and emergent phenomena.",
-    "The philosophical implications of the many-worlds interpretation of quantum mechanics challenge our fundamental notions of reality, causality, and the nature of consciousness, raising profound questions about the structure of the multiverse and our place within it.",
+const numbersParagraphs = [
+    "In 2023, the population reached 8,045,311 with a growth rate of 1.2% per annum.",
+    "The company's revenue was $1,234,567.89 in Q1, $2,345,678.90 in Q2, and $3,456,789.01 in Q3.",
+    "Pi is approximately equal to 3.14159, while e is about 2.71828.",
+    "The distance to the moon is roughly 384,400 kilometers or 238,855 miles.",
+    "In binary, 42 is represented as 101010, and in hexadecimal, it's 2A."
+];
+
+const codeParagraphs = [
+    "function factorial(n) { return n <= 1 ? 1 : n * factorial(n - 1); }",
+    "for (let i = 0; i < array.length; i++) { console.log(array[i]); }",
+    "const sum = numbers.reduce((acc, curr) => acc + curr, 0);",
+    "if (condition) { doSomething(); } else { doSomethingElse(); }",
+    "class Rectangle { constructor(width, height) { this.width = width; this.height = height; } }"
 ];
 
 const textDisplay = document.getElementById('text-display');
@@ -46,7 +41,7 @@ const historyList = document.getElementById('history-list');
 const timeInput = document.getElementById('time-input');
 const timeUnit = document.getElementById('time-unit');
 const backspaceToggle = document.getElementById('backspace-toggle');
-const difficultySelect = document.getElementById('difficulty-select');
+const lessonSelect = document.getElementById('lesson-select');
 
 const modal = document.createElement('div');
 modal.className = 'modal';
@@ -112,29 +107,32 @@ timeInput.addEventListener('change', () => {
 
 function disableControls() {
     timeInput.disabled = true;
-    difficultySelect.disabled = true;
+    lessonSelect.disabled = true;
     backspaceToggle.disabled = true;
 }
 
 function enableControls() {
     timeInput.disabled = false;
-    difficultySelect.disabled = false;
+    lessonSelect.disabled = false;
     backspaceToggle.disabled = false;
 }
 
 function getRandomParagraph() {
-    const difficulty = difficultySelect.value;
+    const lesson = lessonSelect.value;
     let selectedParagraphs;
 
-    switch (difficulty) {
-        case 'easy':
-            selectedParagraphs = easyParagraphs;
+    switch (lesson) {
+        case 'punctuation':
+            selectedParagraphs = punctuationParagraphs;
             break;
-        case 'hard':
-            selectedParagraphs = hardParagraphs;
+        case 'numbers':
+            selectedParagraphs = numbersParagraphs;
+            break;
+        case 'code':
+            selectedParagraphs = codeParagraphs;
             break;
         default:
-            selectedParagraphs = paragraphs;
+            selectedParagraphs = generalParagraphs;
     }
 
     const randomIndex = Math.floor(Math.random() * selectedParagraphs.length);
@@ -267,8 +265,7 @@ function showResultPopup(wpm, cpm, errors, backspaces, accuracy) {
             <p>Backspaces: ${backspaces}</p>
             <canvas id="statsChart" width="400" height="200"></canvas>
             <button id="close-modal">Close</button>
-        </div>
-    `;
+        </div> `;
     modal.style.display = 'flex';
     
     createChart();
@@ -363,6 +360,10 @@ function saveHistoryToDatabase(wpm, cpm, accuracy, errors, backspaces) {
     data.append('accuracy', accuracy);
     data.append('errors', errors);
     data.append('backspaces', backspaces);
+    
+    // Add current date and time
+    const now = new Date();
+    data.append('timestamp', now.toISOString());
 
     fetch('save_history.php', {
         method: 'POST',
@@ -453,7 +454,7 @@ function handleResponsiveLayout() {
 }
 
 resetBtn.addEventListener('click', initTest);
-difficultySelect.addEventListener('change', initTest);
+lessonSelect.addEventListener('change', initTest);
 
 window.addEventListener('load', handleResponsiveLayout);
 window.addEventListener('resize', handleResponsiveLayout);

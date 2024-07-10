@@ -743,11 +743,12 @@ input:checked + .slider:before {
                         <span id="time-unit">seconds</span>
                     </div>
                     <div class="config-item">
-                        <label for="difficulty-select">Difficulty:</label>
-                        <select id="difficulty-select">
-                            <option value="easy">Easy</option>
-                            <option value="medium" selected>Medium</option>
-                            <option value="hard">Hard</option>
+                        <label for="lesson-select">Lesson:</label>
+                        <select id="lesson-select">
+                            <option value="general">General</option>
+                            <option value="punctuation">Punctuation</option>
+                            <option value="numbers">Numbers</option>
+                        <option value="code">Code</option>
                         </select>
                     </div>
                     <div class="config-item">

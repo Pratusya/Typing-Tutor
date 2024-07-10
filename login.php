@@ -4,6 +4,12 @@ ini_set('display_errors', 1);
 
 require('db.php');
 session_start();
+
+// Check if there's a registered username in the session
+$registered_username = isset($_SESSION['registered_username']) ? $_SESSION['registered_username'] : '';
+// Clear the session variable after using it
+unset($_SESSION['registered_username']);
+
 // When form submitted, check and create user session.
 if (isset($_POST['username'])) {
     $username = stripslashes($_REQUEST['username']);    // removes backslashes
@@ -25,36 +31,28 @@ if (isset($_POST['username'])) {
             header("Location: index.php");
             exit();
         } else {
-            echo "<div class='form'>
-                  <h3>Incorrect Username/password.</h3><br/>
-                  <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
-                  </div>";
+            echo "<script>alert('Incorrect Username/password.');</script>";
         }
     } else {
-        echo "<div class='form'>
-              <h3>Incorrect Username/password.</h3><br/>
-              <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
-              </div>";
+        echo "<script>alert('Incorrect Username/password.');</script>";
     }
-} else {
+}
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style123.css"/>
 </head>
 <body>
     <form class="form" method="post" name="login">
         <h1 class="login-title">Login</h1>
-        <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true"/>
+        <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true" value="<?php echo htmlspecialchars($registered_username); ?>"/>
         <input type="password" class="login-input" name="password" placeholder="Password"/>
         <input type="submit" value="Login" name="submit" class="login-button"/>
         <p class="link">Don't have an account? <a href="registration.php">Registration Now</a></p>
     </form>
-<?php
-}
-?>
 </body>
 </html>
