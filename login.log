@@ -1,0 +1,1284 @@
+[2024-07-11 06:02:58] Login attempt for user: pratik
+[2024-07-11 06:02:58] Login failed: User not found: pratik
+[2024-07-11 06:09:26] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 12345
+            [otp] => 760600
+            [otp_time] => 1720670514
+        )
+
+    [razorpay_order_id] => order_OXBb6Bxd1wU0VC
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:10:31] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:10:35] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:10:35] Login attempt for user: dhruvil
+[2024-07-11 06:10:35] User not found: dhruvil
+[2024-07-11 06:10:37] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:10:37] Login attempt for user: 
+[2024-07-11 06:10:37] User not found: 
+[2024-07-11 06:10:45] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:10:45] Login attempt for user: dhruvil
+[2024-07-11 06:10:45] User not found: dhruvil
+[2024-07-11 06:10:49] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:10:49] Login attempt for user: dhruvil
+[2024-07-11 06:10:49] User not found: dhruvil
+[2024-07-11 06:11:32] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:18:32] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:18:32] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:18:33] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:18:33] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:18:33] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:18:40] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:19:36] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:19:51] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:19:51] Login attempt for user: d
+[2024-07-11 06:19:51] User not found: d
+[2024-07-11 06:19:58] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:19:58] Login attempt for user: dhruvil
+[2024-07-11 06:19:58] User not found: dhruvil
+[2024-07-11 06:19:59] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:19:59] Login attempt for user: 
+[2024-07-11 06:19:59] User not found: 
+[2024-07-11 06:19:59] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:19:59] Login attempt for user: 
+[2024-07-11 06:19:59] User not found: 
+[2024-07-11 06:19:59] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:19:59] Login attempt for user: 
+[2024-07-11 06:19:59] User not found: 
+[2024-07-11 06:20:00] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:20:00] Login attempt for user: 
+[2024-07-11 06:20:00] User not found: 
+[2024-07-11 06:20:00] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:20:00] Login attempt for user: 
+[2024-07-11 06:20:00] User not found: 
+[2024-07-11 06:21:06] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 972815
+            [otp_time] => 1720671630
+        )
+
+    [razorpay_order_id] => order_OXBuWB71rmT6ZI
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:21:30] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 972815
+            [otp_time] => 1720671630
+        )
+
+    [razorpay_order_id] => order_OXBuWB71rmT6ZI
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:21:30] Login attempt for user: dhruvil
+[2024-07-11 06:21:30] User not found: dhruvil
+[2024-07-11 06:27:12] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 972815
+            [otp_time] => 1720671630
+        )
+
+    [razorpay_order_id] => order_OXBuWB71rmT6ZI
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:27:12] Login attempt for user: dhruvil
+[2024-07-11 06:27:12] User not found: dhruvil
+[2024-07-11 06:27:18] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 972815
+            [otp_time] => 1720671630
+        )
+
+    [razorpay_order_id] => order_OXBuWB71rmT6ZI
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:27:18] Login attempt for user: dhruvil
+[2024-07-11 06:27:18] User not found: dhruvil
+[2024-07-11 06:27:22] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 972815
+            [otp_time] => 1720671630
+        )
+
+    [razorpay_order_id] => order_OXBuWB71rmT6ZI
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:28:23] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC22uRSmGh1nk
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:28:27] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC22uRSmGh1nk
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:28:27] Login attempt for user: dhruvil
+[2024-07-11 06:28:27] User data from database: Array
+(
+    [id] => 42
+    [username] => dhruvil
+    [password] => $2y$10$6NkSV4K.ibsfSw2jFhy.I.BgiqCiFydjJyIYy5xNM0nif/PDFVq1a
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 06:28:27] Login attempt - Username: dhruvil, Payment Status: 
+[2024-07-11 06:28:27] Password verified for user: dhruvil
+[2024-07-11 06:28:27] Payment status not paid for user: dhruvil
+[2024-07-11 06:35:37] Session data at login start: Array
+(
+)
+
+[2024-07-11 06:36:00] Session data at login start: Array
+(
+)
+
+[2024-07-11 06:36:00] Login attempt for user: dhruvil
+[2024-07-11 06:36:00] User data from database: Array
+(
+    [id] => 42
+    [username] => dhruvil
+    [password] => $2y$10$6NkSV4K.ibsfSw2jFhy.I.BgiqCiFydjJyIYy5xNM0nif/PDFVq1a
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 06:36:00] Login attempt - Username: dhruvil, Payment Status: 
+[2024-07-11 06:36:00] Password verified for user: dhruvil
+[2024-07-11 06:36:00] Payment status not paid for user: dhruvil
+[2024-07-11 06:36:03] Session data at login start: Array
+(
+    [username] => dhruvil
+    [razorpay_order_id] => order_OXCAbS9IDG5YEb
+)
+
+[2024-07-11 06:36:38] Session data at login start: Array
+(
+    [username] => dhruvil
+    [razorpay_order_id] => order_OXCAbS9IDG5YEb
+)
+
+[2024-07-11 06:36:42] Session data at login start: Array
+(
+    [username] => dhruvil
+    [razorpay_order_id] => order_OXCAbS9IDG5YEb
+)
+
+[2024-07-11 06:36:42] Login attempt for user: dhruvil
+[2024-07-11 06:36:42] User data from database: Array
+(
+    [id] => 42
+    [username] => dhruvil
+    [password] => $2y$10$6NkSV4K.ibsfSw2jFhy.I.BgiqCiFydjJyIYy5xNM0nif/PDFVq1a
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 06:36:42] Login attempt - Username: dhruvil, Payment Status: 
+[2024-07-11 06:36:42] Password verified for user: dhruvil
+[2024-07-11 06:36:42] Payment status not paid for user: dhruvil
+[2024-07-11 06:38:43] Session data at login start: Array
+(
+)
+
+[2024-07-11 06:41:55] Session data at login start: Array
+(
+)
+
+[2024-07-11 06:41:58] Session data at login start: Array
+(
+)
+
+[2024-07-11 06:42:59] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 3434
+            [otp] => 656559
+            [otp_time] => 1720672932
+        )
+
+    [razorpay_order_id] => order_OXCHXHpN7KVFO4
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:43:04] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 3434
+            [otp] => 656559
+            [otp_time] => 1720672932
+        )
+
+    [razorpay_order_id] => order_OXCHXHpN7KVFO4
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:43:04] Login attempt for user: dhruvil
+[2024-07-11 06:43:04] User data from database: Array
+(
+    [id] => 43
+    [username] => dhruvil
+    [password] => $2y$10$BsjmLKq91pMEYYuWoFu2Uea8tYxkEvqUU3al5O0NSVUd88acp1ejS
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 06:43:04] Password verified for user: dhruvil
+[2024-07-11 06:43:04] Login successful for user: dhruvil
+[2024-07-11 06:52:08] Session data at login start: Array
+(
+)
+
+[2024-07-11 06:52:14] Session data at login start: Array
+(
+)
+
+[2024-07-11 06:53:22] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 976569
+            [otp_time] => 1720673545
+        )
+
+    [razorpay_order_id] => order_OXCSRZtdOfTKKy
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:53:28] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 976569
+            [otp_time] => 1720673545
+        )
+
+    [razorpay_order_id] => order_OXCSRZtdOfTKKy
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:53:28] Login attempt for user: dhruvil
+[2024-07-11 06:53:28] User data from database: Array
+(
+    [id] => 44
+    [username] => dhruvil
+    [password] => $2y$10$.aHkNv5FE1T2AG1XT8LXG.j7uzEqF6.g3dxqlFl81Krnvrkp5hRR.
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 2024-07-11 06:52:49
+    [verified] => 0
+    [verification_token] => 1e920af6925a9c5f23e99da30dc46bed
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 06:53:28] Unverified user attempted login: dhruvil
+[2024-07-11 06:57:45] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 976569
+            [otp_time] => 1720673545
+        )
+
+    [razorpay_order_id] => order_OXCSRZtdOfTKKy
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:57:45] Login attempt for user: dhruvil
+[2024-07-11 06:57:45] User data from database: Array
+(
+    [id] => 44
+    [username] => dhruvil
+    [password] => $2y$10$.aHkNv5FE1T2AG1XT8LXG.j7uzEqF6.g3dxqlFl81Krnvrkp5hRR.
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 2024-07-11 06:52:49
+    [verified] => 0
+    [verification_token] => 1e920af6925a9c5f23e99da30dc46bed
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 06:57:45] Password verified for user: dhruvil
+[2024-07-11 06:57:45] Login successful for user: dhruvil
+[2024-07-11 06:57:48] Session data at login start: Array
+(
+)
+
+[2024-07-11 06:58:06] Session data at login start: Array
+(
+)
+
+[2024-07-11 06:59:08] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 6767
+            [otp] => 649091
+            [otp_time] => 1720673898
+        )
+
+    [razorpay_order_id] => order_OXCYYV6Q1Yp0Il
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:59:13] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 6767
+            [otp] => 649091
+            [otp_time] => 1720673898
+        )
+
+    [razorpay_order_id] => order_OXCYYV6Q1Yp0Il
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:59:13] Login attempt for user: dhruvil
+[2024-07-11 06:59:13] User data from database: Array
+(
+    [id] => 46
+    [username] => dhruvil
+    [password] => $2y$10$SykSC6Yla7c0wCU..8NvUe92BCEk.Obg0CcPcdEIvSzRlo5iFnYnC
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 2024-07-11 06:58:37
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 06:59:13] Password verified for user: dhruvil
+[2024-07-11 06:59:13] Login successful for user: dhruvil
+[2024-07-11 07:06:25] Session data at login start: Array
+(
+)
+
+[2024-07-11 07:07:31] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 45
+            [otp] => 069562
+            [otp_time] => 1720674396
+        )
+
+    [razorpay_order_id] => order_OXChDks9mfAeAE
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 07:07:38] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 45
+            [otp] => 069562
+            [otp_time] => 1720674396
+        )
+
+    [razorpay_order_id] => order_OXChDks9mfAeAE
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 07:07:38] Login attempt for user: dhruvil
+[2024-07-11 07:07:38] User data from database: Array
+(
+    [id] => 47
+    [username] => dhruvil
+    [password] => $2y$10$rYLGEYNHxFMyeYHGTz1Jg.M4qiCpBJlsORpbkfGwFFq2i/eYxpXFS
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 2024-07-11 07:06:53
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 07:07:38] Password verified for user: dhruvil
+[2024-07-11 07:07:38] Login successful for user: dhruvil
+[2024-07-11 07:38:51] Session data at login start: Array
+(
+)
+
+[2024-07-11 07:41:29] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => yash
+            [email] => yashgohel395@gmail.com
+            [phone] => 7046547026
+            [password] => 123456
+            [otp] => 053985
+            [otp_time] => 1720676414
+        )
+
+    [razorpay_order_id] => order_OXDHCtZpyx5I1N
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 07:41:51] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => yash
+            [email] => yashgohel395@gmail.com
+            [phone] => 7046547026
+            [password] => 123456
+            [otp] => 053985
+            [otp_time] => 1720676414
+        )
+
+    [razorpay_order_id] => order_OXDHCtZpyx5I1N
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 07:41:51] Login attempt for user: yash
+[2024-07-11 07:41:51] User data from database: Array
+(
+    [id] => 48
+    [username] => yash
+    [password] => $2y$10$HLbCDdCR7VFxDO3/.1.7suaM8kSrSh.Mx7V5bHz85yrd9kt6p6TDW
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [create_datetime] => 2024-07-11 07:40:57
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 07:41:51] Password verified for user: yash
+[2024-07-11 07:41:51] Login successful for user: yash
+[2024-07-11 08:00:52] Session data at login start: Array
+(
+)
+
+[2024-07-11 08:01:20] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratikharsora41@gmail.com
+            [phone] => 7096441340
+            [password] => 3434
+            [otp] => 700325
+            [otp_time] => 1720677671
+        )
+
+)
+
+[2024-07-11 08:12:22] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratikharsora41@gmail.com
+            [phone] => 7096441340
+            [password] => 3434
+            [otp] => 700325
+            [otp_time] => 1720677671
+        )
+
+)
+
+[2024-07-11 08:12:22] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratikharsora41@gmail.com
+            [phone] => 7096441340
+            [password] => 3434
+            [otp] => 700325
+            [otp_time] => 1720677671
+        )
+
+)
+
+[2024-07-11 08:12:22] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratikharsora41@gmail.com
+            [phone] => 7096441340
+            [password] => 3434
+            [otp] => 700325
+            [otp_time] => 1720677671
+        )
+
+)
+
+[2024-07-11 08:12:23] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratikharsora41@gmail.com
+            [phone] => 7096441340
+            [password] => 3434
+            [otp] => 700325
+            [otp_time] => 1720677671
+        )
+
+)
+
+[2024-07-11 08:12:50] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 6767
+            [otp] => 135866
+            [otp_time] => 1720678365
+        )
+
+)
+
+[2024-07-11 08:44:12] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 6767
+            [otp] => 135866
+            [otp_time] => 1720678365
+        )
+
+)
+
+[2024-07-11 08:44:17] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 6767
+            [otp] => 135866
+            [otp_time] => 1720678365
+        )
+
+)
+
+[2024-07-11 08:44:30] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 6767
+            [otp] => 135866
+            [otp_time] => 1720678365
+        )
+
+)
+
+[2024-07-11 08:44:30] Login attempt for user: dhruvil
+[2024-07-11 08:44:30] User not found: dhruvil
+[2024-07-11 08:45:36] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 046970
+            [otp_time] => 1720680285
+        )
+
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 08:45:45] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 046970
+            [otp_time] => 1720680285
+        )
+
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 08:45:45] Login attempt for user: dhruvil
+[2024-07-11 08:45:45] User not found: dhruvil
+[2024-07-11 08:45:59] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 046970
+            [otp_time] => 1720680285
+        )
+
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 08:45:59] Login attempt for user: pratik
+[2024-07-11 08:45:59] User data from database: Array
+(
+    [id] => 49
+    [username] => pratik
+    [password] => $2y$10$uK6P4Ia3DfqoYr1wnODZ3uCNqaSJsWuh90aVe3TG5E5kHijcCD.Di
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 2024-07-11 08:45:10
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 08:45:59] Password verified for user: pratik
+[2024-07-11 08:45:59] Login successful for user: pratik
+[2024-07-11 08:46:12] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 046970
+            [otp_time] => 1720680285
+        )
+
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+    [payment_error] => Missing required data for payment verification
+    [username] => pratik
+    [payment_status] => 
+)
+
+[2024-07-11 08:46:21] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 046970
+            [otp_time] => 1720680285
+        )
+
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+    [payment_error] => Missing required data for payment verification
+    [username] => pratik
+    [payment_status] => 
+)
+
+[2024-07-11 08:53:00] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 046970
+            [otp_time] => 1720680285
+        )
+
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+    [payment_error] => Missing required data for payment verification
+    [username] => pratik
+    [payment_status] => 
+)
+
+[2024-07-11 08:53:13] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 046970
+            [otp_time] => 1720680285
+        )
+
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+    [payment_error] => Missing required data for payment verification
+    [username] => pratik
+    [payment_status] => 
+)
+
+[2024-07-11 08:53:13] Login attempt for user: pratik
+[2024-07-11 08:53:13] User data from database: Array
+(
+    [id] => 49
+    [username] => pratik
+    [password] => $2y$10$uK6P4Ia3DfqoYr1wnODZ3uCNqaSJsWuh90aVe3TG5E5kHijcCD.Di
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 2024-07-11 08:45:10
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 08:53:13] Password verified for user: pratik
+[2024-07-11 08:53:13] Login successful for user: pratik
+[2024-07-11 10:29:25] Session data at login start: Array
+(
+)
+
+[2024-07-11 10:33:30] Session data at login start: Array
+(
+)
+
+[2024-07-11 10:33:38] Session data at login start: Array
+(
+)
+
+[2024-07-11 10:33:38] Login attempt for user: pratik
+[2024-07-11 10:33:38] User not found: pratik
+[2024-07-11 10:41:42] Session data at login start: Array
+(
+)
+
+[2024-07-11 10:50:02] Session data at login start: Array
+(
+)
+
+[2024-07-11 10:50:02] Login attempt for user: pratik
+[2024-07-11 10:50:02] User not found: pratik
+[2024-07-11 10:50:05] Session data at login start: Array
+(
+)
+
+[2024-07-11 10:51:18] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 922989
+            [otp_time] => 1720687830
+        )
+
+    [razorpay_order_id] => order_OXGVoATKOrRnRT
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 10:51:23] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 922989
+            [otp_time] => 1720687830
+        )
+
+    [razorpay_order_id] => order_OXGVoATKOrRnRT
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 10:51:23] Login attempt for user: pratik
+[2024-07-11 10:51:23] User data from database: Array
+(
+    [id] => 50
+    [username] => pratik
+    [password] => $2y$10$456BoxZD7x9X5NCwcPp9ieWoklQ6pBGgFw.UvV0HB6LrheWs0xFpa
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 2024-07-11 10:50:51
+    [verified] => 0
+    [verification_token] => 
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => 
+)
+
+[2024-07-11 10:51:24] Password verified for user: pratik
+[2024-07-11 10:51:24] Login successful for user: pratik
+[2024-07-11 11:06:54] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 922989
+            [otp_time] => 1720687830
+        )
+
+    [razorpay_order_id] => order_OXGVoATKOrRnRT
+    [payment_error] => Missing required data for payment verification
+    [username] => pratik
+    [payment_status] => 
+)
+
+[2024-07-11 11:06:58] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 922989
+            [otp_time] => 1720687830
+        )
+
+    [razorpay_order_id] => order_OXGVoATKOrRnRT
+    [payment_error] => Missing required data for payment verification
+    [username] => pratik
+    [payment_status] => 
+)
+

@@ -1,0 +1,442 @@
+[2024-07-10 14:38:04] Payment verification process started
+[2024-07-10 14:38:04] POST data: Array
+(
+    [razorpay_payment_id] => pay_OWvqQT5anp9Wu2
+    [razorpay_order_id] => order_OWvqJIe8kxoNX5
+    [razorpay_signature] => 47ed914a3f638babed3f6e54a9d4f8e1feab858297c44f6084afa5e3fdbf09b2
+)
+
+[2024-07-10 14:38:04] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 07096441340
+            [password] => 1234
+            [otp] => 746248
+            [otp_time] => 1720615040
+        )
+
+    [razorpay_order_id] => order_OWvqJIe8kxoNX5
+)
+
+[2024-07-10 14:38:04] Missing required session or POST data
+[2024-07-10 14:43:50] Payment verification process started
+[2024-07-10 14:43:50] POST data: Array
+(
+    [razorpay_payment_id] => pay_OWvwWs3jn8O1C8
+    [razorpay_order_id] => order_OWvwQXYbEXW80x
+    [razorpay_signature] => 43c931057978dd4c270dc462065601f226d2a9010d03157c6e7dbbb2e077af2d
+)
+
+[2024-07-10 14:43:50] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 07096441340
+            [password] => 123
+            [otp] => 893095
+            [otp_time] => 1720615387
+        )
+
+    [razorpay_order_id] => order_OWvwQXYbEXW80x
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-10 14:43:50] Missing required session or POST data
+[2024-07-10 14:45:27] Payment verification process started
+[2024-07-10 14:45:27] POST data: Array
+(
+    [razorpay_payment_id] => pay_OWvyEFb8uhoCHJ
+    [razorpay_order_id] => order_OWvy5RhIvBC4kG
+    [razorpay_signature] => 5efbf1aa86d578e6bc93393565ec3a7c5e167edcd22d681e76d7e858872babc6
+)
+
+[2024-07-10 14:45:27] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 875302
+            [otp_time] => 1720615485
+        )
+
+    [razorpay_order_id] => order_OWvy5RhIvBC4kG
+)
+
+[2024-07-10 14:45:27] Missing required session or POST data
+[2024-07-11 05:56:49] Payment verification process started
+[2024-07-11 05:56:49] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXBUt5HPtefjhL
+    [razorpay_order_id] => order_OXBUh4aH1s98KP
+    [razorpay_signature] => 18b7852330efc06a10e7e8a768e8b345bd5e3661f9acf65de44cc5292c63496e
+)
+
+[2024-07-11 05:56:49] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 957474
+            [otp_time] => 1720670128
+        )
+
+    [razorpay_order_id] => order_OXBUh4aH1s98KP
+)
+
+[2024-07-11 05:56:49] Missing required session or POST data
+[2024-07-11 06:02:50] Payment verification process started
+[2024-07-11 06:02:50] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXBbEr0ehmTq4c
+    [razorpay_order_id] => order_OXBb6Bxd1wU0VC
+    [razorpay_signature] => 2ee8674f0fb368319edf55712db01cf48af88d133c756ef409a9c810740b0206
+)
+
+[2024-07-11 06:02:50] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 12345
+            [otp] => 760600
+            [otp_time] => 1720670514
+        )
+
+    [razorpay_order_id] => order_OXBb6Bxd1wU0VC
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:02:50] Missing required session or POST data
+[2024-07-11 06:10:31] Payment verification process started
+[2024-07-11 06:10:31] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXBjMA7IU0XQ1t
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [razorpay_signature] => 288ef22abcccf9a8a4091197a3d431f92453185955e344dfa18395389c4b8355
+)
+
+[2024-07-11 06:10:31] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 731667
+            [otp_time] => 1720670984
+        )
+
+    [razorpay_order_id] => order_OXBjDHKviwETLA
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:10:31] Missing required session or POST data
+[2024-07-11 06:19:36] Payment verification process started
+[2024-07-11 06:19:36] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXBsxej6c3TBOl
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [razorpay_signature] => 7e2aa1a0002b2b765a8f6e0340864cd86bb2b7bc2ad8cf42e0ff8b8ebac83320
+)
+
+[2024-07-11 06:19:36] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:19:36] Missing required session or POST data
+[2024-07-11 06:21:06] Payment verification process started
+[2024-07-11 06:21:06] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXBuf5Gate98DP
+    [razorpay_order_id] => order_OXBuWB71rmT6ZI
+    [razorpay_signature] => b7fe89ce4778d3c5f138d8b5d57431caeb221d2f2608497876b09cb5443e4533
+)
+
+[2024-07-11 06:21:06] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 972815
+            [otp_time] => 1720671630
+        )
+
+    [razorpay_order_id] => order_OXBuWB71rmT6ZI
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:21:06] Missing required session or POST data
+[2024-07-11 06:28:23] Payment verification process started
+[2024-07-11 06:28:23] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXC2ErDHRQq7gd
+    [razorpay_order_id] => order_OXC22uRSmGh1nk
+    [razorpay_signature] => 96267022b1aec08825b8b148557837136a215548777c8c32f430d60495d55a78
+)
+
+[2024-07-11 06:28:23] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC22uRSmGh1nk
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:28:23] Missing required session or POST data
+[2024-07-11 06:29:05] Payment verification process started
+[2024-07-11 06:29:05] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXC2yAKzdoP6px
+    [razorpay_order_id] => order_OXC2bkO8c7wYVh
+    [razorpay_signature] => 5207584798b64dd68ae317c9a68782efc3657088d0d7a5ec0cc0b48ff9b45d63
+)
+
+[2024-07-11 06:29:05] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC2bkO8c7wYVh
+    [payment_error] => Missing required data for payment verification
+    [username] => dhruvil
+)
+
+[2024-07-11 06:29:05] Razorpay Signature Verification Error: Invalid signature passed
+[2024-07-11 06:29:41] Payment verification process started
+[2024-07-11 06:29:41] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXC3cFAffPPB0n
+    [razorpay_order_id] => order_OXC3GylbXeKtzb
+    [razorpay_signature] => 88a029120f744764b2a3f3f06e4314cae57187b1c1f7b4be95c49c1ccd158e1d
+)
+
+[2024-07-11 06:29:41] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC3GylbXeKtzb
+    [payment_error] => Payment verification failed. Please try again or contact support.
+    [username] => dhruvil
+)
+
+[2024-07-11 06:29:41] Razorpay Signature Verification Error: Invalid signature passed
+[2024-07-11 06:42:59] Payment verification process started
+[2024-07-11 06:42:59] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXCHejxiTkHUZk
+    [razorpay_order_id] => order_OXCHXHpN7KVFO4
+    [razorpay_signature] => 26675c06732d03a375853b1d07807a0046cf10e747ef36b0888ef1f3dd38a438
+)
+
+[2024-07-11 06:42:59] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 3434
+            [otp] => 656559
+            [otp_time] => 1720672932
+        )
+
+    [razorpay_order_id] => order_OXCHXHpN7KVFO4
+)
+
+[2024-07-11 06:42:59] Missing required session or POST data
+[2024-07-11 06:53:22] Payment verification process started
+[2024-07-11 06:53:22] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXCScfY3SplRDU
+    [razorpay_order_id] => order_OXCSRZtdOfTKKy
+    [razorpay_signature] => c94c53e369c54df569b57e95727d091cbc6db8adc6ef3c61d6bff4ab241ee7da
+)
+
+[2024-07-11 06:53:22] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 976569
+            [otp_time] => 1720673545
+        )
+
+    [razorpay_order_id] => order_OXCSRZtdOfTKKy
+)
+
+[2024-07-11 06:53:22] Missing required session or POST data
+[2024-07-11 06:59:08] Payment verification process started
+[2024-07-11 06:59:08] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXCYhjMDGurEVM
+    [razorpay_order_id] => order_OXCYYV6Q1Yp0Il
+    [razorpay_signature] => d050607d50cf1bb27fcd07721591ecdfff72a596d383beb833f6de57fa7b3318
+)
+
+[2024-07-11 06:59:08] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 6767
+            [otp] => 649091
+            [otp_time] => 1720673898
+        )
+
+    [razorpay_order_id] => order_OXCYYV6Q1Yp0Il
+)
+
+[2024-07-11 06:59:08] Missing required session or POST data
+[2024-07-11 07:07:31] Payment verification process started
+[2024-07-11 07:07:31] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXChZ54L8QOFIy
+    [razorpay_order_id] => order_OXChDks9mfAeAE
+    [razorpay_signature] => 7861437955c1e96d8227ce6d485bab89ee87fc2ab259c2bdbdd61099b26487d0
+)
+
+[2024-07-11 07:07:31] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 45
+            [otp] => 069562
+            [otp_time] => 1720674396
+        )
+
+    [razorpay_order_id] => order_OXChDks9mfAeAE
+)
+
+[2024-07-11 07:07:31] Missing required session or POST data
+[2024-07-11 07:41:29] Payment verification process started
+[2024-07-11 07:41:29] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXDHT8mo373yqa
+    [razorpay_order_id] => order_OXDHCtZpyx5I1N
+    [razorpay_signature] => 7a9c4610371cdd493f33f3eb7085f2d7e32e57f885039a0c256f5900ebc982e7
+)
+
+[2024-07-11 07:41:29] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => yash
+            [email] => yashgohel395@gmail.com
+            [phone] => 7046547026
+            [password] => 123456
+            [otp] => 053985
+            [otp_time] => 1720676414
+        )
+
+    [razorpay_order_id] => order_OXDHCtZpyx5I1N
+)
+
+[2024-07-11 07:41:29] Missing required session or POST data
+[2024-07-11 08:45:36] Payment verification process started
+[2024-07-11 08:45:36] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXEND4XSuhtNwd
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+    [razorpay_signature] => 3dada11f8711040816b49707ac0256c2bcb95d0a8acd96bcc20851857c5382d8
+)
+
+[2024-07-11 08:45:36] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 046970
+            [otp_time] => 1720680285
+        )
+
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+)
+
+[2024-07-11 08:45:36] Missing required session or POST data
+[2024-07-11 10:51:18] Payment verification process started
+[2024-07-11 10:51:18] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXGVyOJLumLV9H
+    [razorpay_order_id] => order_OXGVoATKOrRnRT
+    [razorpay_signature] => ea1091567e9c211f403c1a67e73425491c7e8bc492f6537244252e43c707d176
+)
+
+[2024-07-11 10:51:18] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 922989
+            [otp_time] => 1720687830
+        )
+
+    [razorpay_order_id] => order_OXGVoATKOrRnRT
+)
+
+[2024-07-11 10:51:18] Missing required session or POST data

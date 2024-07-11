@@ -94,6 +94,18 @@ body {
     margin-bottom: 15px;
 }
 
+.error {
+    color: #d93025;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 /* Adjust form width for very small screens */
 @media screen and (max-width: 320px) {
     .form {

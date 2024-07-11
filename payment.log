@@ -1,0 +1,559 @@
+[2024-07-10 14:38:04] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720615087
+            [currency] => INR
+            [entity] => order
+            [id] => order_OWvqj4cTJLRpEK
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720615084
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:19:36] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 591160
+            [otp_time] => 1720671532
+        )
+
+    [razorpay_order_id] => order_OXBsqs749uTQl9
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:19:36] User not logged in or already paid. Redirecting to login.
+[2024-07-11 06:21:06] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 4545
+            [otp] => 972815
+            [otp_time] => 1720671630
+        )
+
+    [razorpay_order_id] => order_OXBuWB71rmT6ZI
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:21:06] User not logged in or already paid. Redirecting to login.
+[2024-07-11 06:28:23] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC22uRSmGh1nk
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:28:23] User not logged in or already paid. Redirecting to login.
+[2024-07-11 06:28:27] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC22uRSmGh1nk
+    [payment_error] => Missing required data for payment verification
+    [username] => dhruvil
+)
+
+[2024-07-11 06:28:27] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720672108
+            [currency] => INR
+            [entity] => order
+            [id] => order_OXC2bkO8c7wYVh
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720672107
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:29:05] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC2bkO8c7wYVh
+    [payment_error] => Payment verification failed. Please try again or contact support.
+    [username] => dhruvil
+)
+
+[2024-07-11 06:29:05] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720672145
+            [currency] => INR
+            [entity] => order
+            [id] => order_OXC3GylbXeKtzb
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720672145
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:29:41] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC3GylbXeKtzb
+    [payment_error] => Payment verification failed. Please try again or contact support.
+    [username] => dhruvil
+)
+
+[2024-07-11 06:29:42] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720672182
+            [currency] => INR
+            [entity] => order
+            [id] => order_OXC3unHLgMNuhz
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720672181
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:35:10] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC3unHLgMNuhz
+    [payment_error] => Payment verification failed. Please try again or contact support.
+    [username] => dhruvil
+)
+
+[2024-07-11 06:35:10] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720672511
+            [currency] => INR
+            [entity] => order
+            [id] => order_OXC9hVUPBtKzvO
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720672510
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:35:12] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC9hVUPBtKzvO
+    [payment_error] => Payment verification failed. Please try again or contact support.
+    [username] => dhruvil
+)
+
+[2024-07-11 06:35:12] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720672512
+            [currency] => INR
+            [entity] => order
+            [id] => order_OXC9jKduvdTl31
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720672512
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:35:14] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 631403
+            [otp_time] => 1720672055
+        )
+
+    [razorpay_order_id] => order_OXC9jKduvdTl31
+    [payment_error] => Payment verification failed. Please try again or contact support.
+    [username] => dhruvil
+)
+
+[2024-07-11 06:35:14] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720672514
+            [currency] => INR
+            [entity] => order
+            [id] => order_OXC9liDQmT4KHe
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720672514
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:36:00] Session data at payment start: Array
+(
+    [username] => dhruvil
+)
+
+[2024-07-11 06:36:01] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720672562
+            [currency] => INR
+            [entity] => order
+            [id] => order_OXCAbS9IDG5YEb
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720672560
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:36:42] Session data at payment start: Array
+(
+    [username] => dhruvil
+    [razorpay_order_id] => order_OXCAbS9IDG5YEb
+)
+
+[2024-07-11 06:36:42] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720672603
+            [currency] => INR
+            [entity] => order
+            [id] => order_OXCBJwXnXyWXv0
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720672602
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:36:44] Session data at payment start: Array
+(
+    [username] => dhruvil
+    [razorpay_order_id] => order_OXCBJwXnXyWXv0
+)
+
+[2024-07-11 06:36:44] Razorpay order created: Razorpay\Api\Order Object
+(
+    [attributes:protected] => Array
+        (
+            [amount] => 2000
+            [amount_due] => 2000
+            [amount_paid] => 0
+            [attempts] => 0
+            [created_at] => 1720672604
+            [currency] => INR
+            [entity] => order
+            [id] => order_OXCBLlv4TjlnOB
+            [notes] => Razorpay\Api\Order Object
+                (
+                    [attributes:protected] => Array
+                        (
+                        )
+
+                )
+
+            [offer_id] => 
+            [receipt] => rcptid_1720672604
+            [status] => created
+        )
+
+)
+
+[2024-07-11 06:42:59] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 3434
+            [otp] => 656559
+            [otp_time] => 1720672932
+        )
+
+    [razorpay_order_id] => order_OXCHXHpN7KVFO4
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:42:59] User not logged in or already paid. Redirecting to login.
+[2024-07-11 06:53:22] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 976569
+            [otp_time] => 1720673545
+        )
+
+    [razorpay_order_id] => order_OXCSRZtdOfTKKy
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:53:22] User not logged in or already paid. Redirecting to login.
+[2024-07-11 06:59:08] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 6767
+            [otp] => 649091
+            [otp_time] => 1720673898
+        )
+
+    [razorpay_order_id] => order_OXCYYV6Q1Yp0Il
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 06:59:08] User not logged in or already paid. Redirecting to login.
+[2024-07-11 07:07:31] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 45
+            [otp] => 069562
+            [otp_time] => 1720674396
+        )
+
+    [razorpay_order_id] => order_OXChDks9mfAeAE
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 07:07:31] User not logged in or already paid. Redirecting to login.
+[2024-07-11 07:41:29] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => yash
+            [email] => yashgohel395@gmail.com
+            [phone] => 7046547026
+            [password] => 123456
+            [otp] => 053985
+            [otp_time] => 1720676414
+        )
+
+    [razorpay_order_id] => order_OXDHCtZpyx5I1N
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 07:41:29] User not logged in or already paid. Redirecting to login.
+[2024-07-11 08:45:36] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 046970
+            [otp_time] => 1720680285
+        )
+
+    [razorpay_order_id] => order_OXEN4flRal3l9o
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 08:45:36] User not logged in or already paid. Redirecting to login.
+[2024-07-11 10:51:18] Session data at payment start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 922989
+            [otp_time] => 1720687830
+        )
+
+    [razorpay_order_id] => order_OXGVoATKOrRnRT
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 10:51:18] User not logged in or already paid. Redirecting to login.
