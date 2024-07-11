@@ -6,6 +6,12 @@ session_start();
 require_once 'db.php';
 require_once 'utilities.php';
 
+// Check if admin is logged in
+if (!isset($_SESSION['admin_id'])) {
+    header("location: Admin-login.php");
+    exit;
+}
+
 // Function to get all users (with pagination)
 function getAllUsers($con, $page = 1, $limit = 10) {
     $offset = ($page - 1) * $limit;
@@ -89,7 +95,11 @@ $total_pages = ceil($total_users / $limit);
                                 <i class="fas fa-users"></i> User Management
                             </a>
                         </li>
-                        <!-- Add more sidebar items here -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin_logout.php">
+                                <i class="fas fa-sign-out-alt"></i> Logout
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -97,6 +107,11 @@ $total_pages = ceil($total_users / $limit);
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h1 class="h2">User Management</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group me-2">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="mb-3">

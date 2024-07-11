@@ -10,4 +10,15 @@ if (mysqli_connect_errno()){
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
     exit();
 }
+
+// Add new columns if they don't exist
+$alter_query = "
+ALTER TABLE users 
+ADD COLUMN IF NOT EXISTS otp VARCHAR(6) DEFAULT NULL,
+ADD COLUMN IF NOT EXISTS verified TINYINT(1) DEFAULT 0";
+
+if (!mysqli_query($con, $alter_query)) {
+    echo "Error altering table: " . mysqli_error($con);
+    exit();
+}
 ?>

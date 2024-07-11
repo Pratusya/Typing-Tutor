@@ -440,3 +440,91 @@
 )
 
 [2024-07-11 10:51:18] Missing required session or POST data
+[2024-07-11 13:28:13] Payment verification process started
+[2024-07-11 13:28:13] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXJBjAE1iRR3Dk
+    [razorpay_order_id] => order_OXJBbSqrr2TFfx
+    [razorpay_signature] => db1a7b2163213e2eb18dbcdd46845a9f1671394ea1da82a9965e727750c7a904
+)
+
+[2024-07-11 13:28:13] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 194996
+            [otp_time] => 1720697241
+        )
+
+    [razorpay_order_id] => order_OXJBbSqrr2TFfx
+)
+
+[2024-07-11 13:28:13] Missing required session or POST data
+[2024-07-11 13:37:05] Payment verification process started
+[2024-07-11 13:37:05] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXJL6lzZB1svVe
+    [razorpay_order_id] => order_OXJKyqLD4mHviN
+    [razorpay_signature] => d00cac3069f2bcbc974e04f51aea0cfc8c74fd76ef9f324ab12962ad29aa36ff
+)
+
+[2024-07-11 13:37:05] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 546798
+            [otp_time] => 1720697788
+        )
+
+    [razorpay_order_id] => order_OXJKyqLD4mHviN
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 13:37:05] Missing required session or POST data
+[2024-07-11 13:39:13] Payment verification process started
+[2024-07-11 13:39:13] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXJNLMG6leDAdI
+    [razorpay_order_id] => order_OXJNECpHP5Cia2
+    [razorpay_signature] => 3eb7667c9059d411674973d23c8bc8b992f60b3f54aa6094fbc84171cd44de2a
+)
+
+[2024-07-11 13:39:13] SESSION data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 723288
+            [otp_time] => 1720697906
+        )
+
+    [razorpay_order_id] => order_OXJNECpHP5Cia2
+    [payment_error] => Missing required data for payment verification
+)
+
+[2024-07-11 13:39:13] Missing required session or POST data
+[2024-07-11 13:54:04] Payment verification process started
+[2024-07-11 13:54:04] POST data: Array
+(
+    [razorpay_payment_id] => pay_OXJd35O7mY6u5v
+    [razorpay_order_id] => order_OXJcsJRBUXKyT8
+    [razorpay_signature] => ad160103d655a41ab2db3fdb6857d4c0c5982f769056f4ebb1af9e6bdf131e3d
+)
+
+[2024-07-11 13:54:04] SESSION data: Array
+(
+    [razorpay_order_id] => order_OXJcsJRBUXKyT8
+)
+
+[2024-07-11 13:54:04] Missing required session or POST data

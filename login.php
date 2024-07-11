@@ -33,25 +33,33 @@ if (isset($_POST['username'])) {
         logError("User data from database: " . print_r($user, true), 'login.log');
         
         if (password_verify($password, $user['password'])) {
-            // Check if the user is verified
+            logError("Password verified for user: " . $username, 'login.log');
             if ($user['verified'] == 1) {
-                logError("Password verified for user: " . $username, 'login.log');
                 $_SESSION['username'] = $username;
                 $_SESSION['payment_status'] = $user['payment_status'];
                 logError("Login successful for user: " . $username, 'login.log');
                 header("Location: index.php");
                 exit();
             } else {
-                logError("User not verified: " . $username, 'login.log');
-                echo "<script>alert('Please verify your email before logging in.');</script>";
+                logError("Email not verified for user: " . $username, 'login.log');
+                echo "<div class='form'>
+                      <h3>Your email is not verified.</h3><br/>
+                      <p class='link'>Please check your email for the verification OTP.</p>
+                      </div>";
             }
         } else {
             logError("Incorrect password for user: " . $username, 'login.log');
-            echo "<script>alert('Incorrect Username/password.');</script>";
+            echo "<div class='form'>
+                  <h3>Incorrect Username/password.</h3><br/>
+                  <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
+                  </div>";
         }
     } else {
         logError("User not found: " . $username, 'login.log');
-        echo "<script>alert('Incorrect Username/password.');</script>";
+        echo "<div class='form'>
+              <h3>Incorrect Username/password.</h3><br/>
+              <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
+              </div>";
     }
 }
 ?>

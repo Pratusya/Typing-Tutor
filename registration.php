@@ -128,7 +128,7 @@ if (isset($_POST['username'])) {
     }
 }
 
-// Verify OTP and initiate payment
+// Verify OTP and complete registration
 if (isset($_POST['otp'])) {
     $entered_otp = $_POST['otp'];
     if (isset($_SESSION['registration'])) {
@@ -148,11 +148,16 @@ if (isset($_POST['otp'])) {
             $password = password_hash($registration['password'], PASSWORD_DEFAULT);
             $payment_status = 'pending';
             $create_datetime = date("Y-m-d H:i:s");
+            $otp = $registration['otp'];
+            $verified = 1; // Set to 1 as the OTP is verified
 
-            $stmt = $con->prepare("INSERT INTO users (username, email, phone, password, payment_status, create_datetime) VALUES (?, ?, ?, ?, ?, ?)");
-            $stmt->bind_param("ssssss", $username, $email, $phone, $password, $payment_status, $create_datetime);
+            $stmt = $con->prepare("INSERT INTO users (username, email, phone, password, payment_status, create_datetime, otp, verified) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt->bind_param("sssssssi", $username, $email, $phone, $password, $payment_status, $create_datetime, $otp, $verified);
             
             if ($stmt->execute()) {
+                // Clear the registration session data
+                unset($_SESSION['registration']);
+                
                 // Proceed with payment initiation
                 $api = new Api($razorpay_key_id, $razorpay_key_secret);
                 $order = $api->order->create(array(
@@ -165,7 +170,7 @@ if (isset($_POST['otp'])) {
                 // Return payment details to the client
                 echo json_encode([
                     'success' => true,
-                    'message' => 'Proceed to payment',
+                    'message' => 'Email verified. Proceed to payment',
                     'order_id' => $order['id'],
                     'amount' => 2000,
                     'key' => $razorpay_key_id
@@ -272,6 +277,7 @@ if (isset($_POST['resend_otp'])) {
     <input type="hidden" name="razorpay_order_id" id="razorpay_order_id">
     <input type="hidden" name="razorpay_signature" id="razorpay_signature">
 </form>
+
 
 <script>
 document.getElementById('registration-form').addEventListener('submit', function(e) {

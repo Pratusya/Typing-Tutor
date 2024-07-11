@@ -12,7 +12,7 @@ if (isset($_GET['token'])) {
     if ($result->num_rows > 0) {
         $user = $result->fetch_assoc();
         
-        $update_stmt = $con->prepare("UPDATE users SET verified = 1, verification_token = NULL WHERE id = ?");
+        $update_stmt = $con->prepare("UPDATE users SET verified = TRUE, verification_token = NULL WHERE id = ?");
         $update_stmt->bind_param("i", $user['id']);
         
         if ($update_stmt->execute()) {
