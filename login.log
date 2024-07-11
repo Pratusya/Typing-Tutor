@@ -1282,3 +1282,27 @@
     [payment_status] => 
 )
 
+[2024-07-11 12:35:57] Session data at login start: Array
+(
+)
+
+[2024-07-11 12:36:06] Session data at login start: Array
+(
+)
+
+[2024-07-11 12:36:06] Login attempt for user: pratik
+[2024-07-11 12:36:06] User not found: pratik
+[2024-07-11 12:37:19] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 5656
+            [otp] => 344333
+            [otp_time] => 1720694234
+        )
+
+)
+

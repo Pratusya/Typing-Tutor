@@ -148,10 +148,9 @@ if (isset($_POST['otp'])) {
             $password = password_hash($registration['password'], PASSWORD_DEFAULT);
             $payment_status = 'pending';
             $create_datetime = date("Y-m-d H:i:s");
-            $verified = 0; // Set verified status to 0 (unverified)
 
-            $stmt = $con->prepare("INSERT INTO users (username, email, phone, password, payment_status, create_datetime, verified) VALUES (?, ?, ?, ?, ?, ?, ?)");
-            $stmt->bind_param("ssssssi", $username, $email, $phone, $password, $payment_status, $create_datetime, $verified);
+            $stmt = $con->prepare("INSERT INTO users (username, email, phone, password, payment_status, create_datetime) VALUES (?, ?, ?, ?, ?, ?)");
+            $stmt->bind_param("ssssss", $username, $email, $phone, $password, $payment_status, $create_datetime);
             
             if ($stmt->execute()) {
                 // Proceed with payment initiation
@@ -275,7 +274,217 @@ if (isset($_POST['resend_otp'])) {
 </form>
 
 <script>
-// ... (JavaScript code remains the same as in the original file)
+document.getElementById('registration-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var password = document.getElementById('password').value;
+    var rePassword = document.getElementById('re-password').value;
+
+    if (password !== rePassword) {
+        alert('Passwords do not match. Please try again.');
+        return;
+    }
+
+    var formData = new FormData(this);
+
+    // Immediately hide registration form and show OTP form
+    document.getElementById('registration-form').style.display = 'none';
+    document.getElementById('otp-form').style.display = 'block';
+    startResendTimer();
+
+    fetch('registration.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert(data.message);
+        } else {
+            // If registration fails, show registration form again
+            document.getElementById('registration-form').style.display = 'block';
+            document.getElementById('otp-form').style.display = 'none';
+            alert(data.message || 'Registration failed. Please check the errors and try again.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        // If there's an error, show registration form again
+        document.getElementById('registration-form').style.display = 'block';
+        document.getElementById('otp-form').style.display = 'none';
+        alert('An error occurred. Please try again.');
+    });
+});
+
+document.getElementById('otp-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var formData = new FormData(this);
+
+    // Disable the verify button to prevent multiple submissions
+    document.getElementById('verify-btn').disabled = true;
+
+    fetch('registration.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            if (data.order_id) {
+                // Proceed to payment
+                var options = {
+                    "key": data.key,
+                    "amount": data.amount,
+                    "currency": "INR",
+                    "name": "Your Company Name",
+                    "description": "Registration Fee",
+                    "order_id": data.order_id,
+                    "handler": function (response){
+                        document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
+                        document.getElementById('razorpay_order_id').value = response.razorpay_order_id;
+                        document.getElementById('razorpay_signature').value = response.razorpay_signature;
+                        document.getElementById('razorpay-form').submit();
+                    },
+                    "prefill": {
+                        "name": document.getElementById('username').value,
+                        "email": document.getElementById('email').value,
+                        "contact": document.getElementById('phone').value
+                    },
+                    "theme": {
+                        "color": "#3399cc"
+                    }
+                };
+                var rzp1 = new Razorpay(options);
+                rzp1.open();
+            } else {
+                alert(data.message);
+                window.location.href = 'login.php';
+            }
+        } else {
+            alert(data.message);
+            // Re-enable the verify button if OTP verification fails
+            document.getElementById('verify-btn').disabled = false;
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again.');
+        // Re-enable the verify button on error
+        document.getElementById('verify-btn').disabled = false;
+    });
+});
+
+function startResendTimer() {
+    var timerDisplay = document.getElementById('timer');
+    var resendButton = document.getElementById('resend-otp-btn');
+    var timeLeft = 60;
+    resendButton.disabled = true;
+    var timerId = setInterval(function() {
+        if(timeLeft <= 0){
+            clearInterval(timerId);
+            timerDisplay.textContent = "";
+            resendButton.disabled = false;
+        } else {
+            timerDisplay.textContent = "Resend OTP in " + timeLeft + " seconds";
+            timeLeft--;
+        }
+    }, 1000);
+}
+
+document.getElementById('resend-otp-btn').addEventListener('click', function() {
+    this.disabled = true;
+    fetch('registration.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: 'resend_otp=true'
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(data.message);
+        if (data.success) {
+            startResendTimer();
+        } else {
+            this.disabled = false;
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        this.disabled = false;
+    });
+});
+
+document.getElementById('email').addEventListener('blur', function() {
+    var email = this.value;
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'registration.php', true);
+    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    xhr.onload = function() {
+        if (this.status == 200) {
+            var response = JSON.parse(this.responseText);
+            if (response.exists) {
+                document.getElementById('email-error').style.display = 'block';
+                document.getElementById('submit-btn').disabled = true;
+            } else {
+                document.getElementById('email-error').style.display = 'none';
+                if (document.getElementById('username-error').style.display === 'none' &&
+                    document.getElementById('password-match-error').style.display === 'none') {
+                    document.getElementById('submit-btn').disabled = false;
+                }
+            }
+        }
+    };
+    xhr.send('check_email=' + email);
+});
+
+document.getElementById('username').addEventListener('blur', function() {
+    var username = this.value;
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'registration.php', true);
+    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    xhr.onload = function() {
+        if (this.status == 200) {
+            var response = JSON.parse(this.responseText);
+            if (response.exists) {
+                document.getElementById('username-error').style.display = 'block';
+                document.getElementById('submit-btn').disabled = true;
+            } else {
+                document.getElementById('username-error').style.display = 'none';
+                if (document.getElementById('email-error').style.display === 'none' &&
+                    document.getElementById('password-match-error').style.display === 'none') {
+                    document.getElementById('submit-btn').disabled = false;
+                }
+            }
+        }
+    };
+    xhr.send('check_username=' + username);
+});
+
+document.getElementById('re-password').addEventListener('input', function() {
+    var password = document.getElementById('password').value;
+    var rePassword = this.value;
+    var passwordMatchError = document.getElementById('password-match-error');
+    var submitBtn = document.getElementById('submit-btn');
+
+    if (password !== rePassword) {
+        passwordMatchError.style.display = 'block';
+        submitBtn.disabled = true;
+    } else {
+        passwordMatchError.style.display = 'none';
+        if (document.getElementById('email-error').style.display === 'none' &&
+            document.getElementById('username-error').style.display === 'none') {
+            submitBtn.disabled = false;
+        }
+    }
+});
+
+document.getElementById('password').addEventListener('input', function() {
+    var rePassword = document.getElementById('re-password');
+    if (rePassword.value) {
+        rePassword.dispatchEvent(new Event('input'));
+    }
+});
 </script>
 </body>
 </html>
+    
