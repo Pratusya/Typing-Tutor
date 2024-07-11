@@ -9,7 +9,7 @@ require_once 'utilities.php';
 // Function to get all users (with pagination)
 function getAllUsers($con, $page = 1, $limit = 10) {
     $offset = ($page - 1) * $limit;
-    $query = "SELECT id, username, email FROM users LIMIT ? OFFSET ?";
+    $query = "SELECT id, username, email, registration_date, last_login, user_role FROM users LIMIT ? OFFSET ?";
     
     $stmt = mysqli_prepare($con, $query);
     if ($stmt === false) {
@@ -103,29 +103,37 @@ $total_pages = ceil($total_users / $limit);
                     <input type="text" class="form-control" id="userSearch" placeholder="Search users...">
                 </div>
 
-                <table class="table table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Username</th>
-                            <th>Email</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php foreach ($users as $user): ?>
-                        <tr>
-                            <td><?php echo htmlspecialchars($user['id']); ?></td>
-                            <td><?php echo htmlspecialchars($user['username']); ?></td>
-                            <td><?php echo htmlspecialchars($user['email']); ?></td>
-                            <td>
-                                <a href="edit_user.php?id=<?php echo $user['id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
-                                <button class="btn btn-sm btn-danger delete-user" data-id="<?php echo $user['id']; ?>"><i class="fas fa-trash"></i></button>
-                            </td>
-                        </tr>
-                        <?php endforeach; ?>
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Username</th>
+                                <th>Email</th>
+                                <th>Registration Date</th>
+                                <th>Last Login</th>
+                                <th>User Role</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($users as $user): ?>
+                            <tr>
+                                <td><?php echo htmlspecialchars($user['id']); ?></td>
+                                <td><?php echo htmlspecialchars($user['username']); ?></td>
+                                <td><?php echo htmlspecialchars($user['email']); ?></td>
+                                <td><?php echo htmlspecialchars($user['registration_date']); ?></td>
+                                <td><?php echo htmlspecialchars($user['last_login']); ?></td>
+                                <td><?php echo htmlspecialchars($user['user_role']); ?></td>
+                                <td>
+                                    <a href="edit_user.php?id=<?php echo $user['id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
+                                    <button class="btn btn-sm btn-danger delete-user" data-id="<?php echo $user['id']; ?>"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                            <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                </div>
 
                 <nav aria-label="Page navigation">
                     <ul class="pagination">

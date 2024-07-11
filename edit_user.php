@@ -6,8 +6,6 @@ session_start();
 require_once 'db.php';
 require_once 'utilities.php';
 
-
-
 $user_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
 if ($user_id === 0) {
@@ -15,7 +13,11 @@ if ($user_id === 0) {
 }
 
 // Fetch user data
-$query = "SELECT id, username, email, registration_date, last_login, user_role FROM users WHERE id = ?";
+$query = "SELECT id, username, email, 
+          IFNULL(registration_date, 'N/A') as registration_date, 
+          IFNULL(last_login, 'N/A') as last_login, 
+          IFNULL(user_role, 'user') as user_role 
+          FROM users WHERE id = ?";
 $stmt = mysqli_prepare($con, $query);
 
 if ($stmt === false) {

@@ -33,12 +33,18 @@ if (isset($_POST['username'])) {
         logError("User data from database: " . print_r($user, true), 'login.log');
         
         if (password_verify($password, $user['password'])) {
-            logError("Password verified for user: " . $username, 'login.log');
-            $_SESSION['username'] = $username;
-            $_SESSION['payment_status'] = $user['payment_status'];
-            logError("Login successful for user: " . $username, 'login.log');
-            header("Location: index.php");
-            exit();
+            // Check if the user is verified
+            if ($user['verified'] == 1) {
+                logError("Password verified for user: " . $username, 'login.log');
+                $_SESSION['username'] = $username;
+                $_SESSION['payment_status'] = $user['payment_status'];
+                logError("Login successful for user: " . $username, 'login.log');
+                header("Location: index.php");
+                exit();
+            } else {
+                logError("User not verified: " . $username, 'login.log');
+                echo "<script>alert('Please verify your email before logging in.');</script>";
+            }
         } else {
             logError("Incorrect password for user: " . $username, 'login.log');
             echo "<script>alert('Incorrect Username/password.');</script>";
