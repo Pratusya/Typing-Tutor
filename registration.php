@@ -12,6 +12,19 @@ use Razorpay\Api\Api;
 session_start();
 $errors = array();
 
+// Check the number of registered users
+$count_query = "SELECT COUNT(*) as user_count FROM users";
+$count_result = mysqli_query($con, $count_query);
+$count_row = mysqli_fetch_assoc($count_result);
+$user_count = $count_row['user_count'];
+
+// If user count is 50 or more, redirect to login page with a message
+if ($user_count >= 4) {
+    $_SESSION['registration_closed'] = true;
+    header("Location: login.php");
+    exit();
+}
+
 // Razorpay credentials
 $razorpay_key_id = 'rzp_test_vmssaFysS6ROAD';
 $razorpay_key_secret = 'gqhigy08YKnm9y43YNeMjFmF';
@@ -157,6 +170,16 @@ if (isset($_POST['otp'])) {
             if ($stmt->execute()) {
                 // Clear the registration session data
                 unset($_SESSION['registration']);
+                
+                // Check if the new count has reached 50
+                $new_count_query = "SELECT COUNT(*) as user_count FROM users";
+                $new_count_result = mysqli_query($con, $new_count_query);
+                $new_count_row = mysqli_fetch_assoc($new_count_result);
+                $new_user_count = $new_count_row['user_count'];
+                
+                if ($new_user_count >= 4) {
+                    $_SESSION['registration_closed'] = true;
+                }
                 
                 // Proceed with payment initiation
                 $api = new Api($razorpay_key_id, $razorpay_key_secret);

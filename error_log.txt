@@ -1,3 +1,4 @@
 [2024-07-11 10:43:14] Prepare failed: Unknown column 'created_at' in 'field list'
 [2024-07-11 10:45:48] Prepare failed: Unknown column 'created_at' in 'field list'
 [2024-07-11 10:49:12] Prepare failed: Unknown column 'created_at' in 'field list'
+[2024-07-13 09:02:30] Failed to record admin login: Cannot add or update a child row: a foreign key constraint fails (`loginsystem`.`admin_logins`, CONSTRAINT `admin_logins_ibfk_1` FOREIGN KEY (`admin_id`) REFERENCES `users` (`id`))

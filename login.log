@@ -1565,3 +1565,112 @@
 
 [2024-07-11 13:54:12] Password verified for user: dhruvil
 [2024-07-11 13:54:12] Login successful for user: dhruvil
+[2024-07-13 07:38:29] Session data at login start: Array
+(
+)
+
+[2024-07-13 07:53:11] Session data at login start: Array
+(
+    [admin_id] => 56
+    [admin_username] => admin
+)
+
+[2024-07-13 07:55:53] Session data at login start: Array
+(
+)
+
+[2024-07-13 08:14:42] Session data at login start: Array
+(
+    [admin_id] => 56
+    [admin_username] => admin
+)
+
+[2024-07-13 08:14:56] Session data at login start: Array
+(
+    [admin_id] => 56
+    [admin_username] => admin
+)
+
+[2024-07-13 08:14:56] Login attempt for user: yash
+[2024-07-13 08:14:56] User data from database: Array
+(
+    [id] => 69
+    [username] => yash
+    [password] => $2y$10$tFin9VWeFPkOJHsXLeMJ/.bwLDnc6HUr/or.f51vUkYcbCKNOfffa
+    [email] => yashgohel395@gmail.com
+    [phone] => 
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => unpaid
+    [registration_date] => 2024-07-13 11:44:19
+    [last_login] => 
+    [user_role] => user
+    [verification_token] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 1
+)
+
+[2024-07-13 08:14:57] Password verified for user: yash
+[2024-07-13 08:14:57] Login successful for user: yash
+[2024-07-13 08:16:16] Session data at login start: Array
+(
+)
+
+[2024-07-13 08:16:58] Session data at login start: Array
+(
+)
+
+[2024-07-13 08:23:40] Session data at login start: Array
+(
+)
+
+[2024-07-13 08:42:46] Session data at login start: Array
+(
+    [admin_id] => 79
+    [admin_username] => admin
+)
+
+[2024-07-13 08:44:52] Session data at login start: Array
+(
+    [admin_id] => 79
+    [admin_username] => admin
+    [registration_closed] => 1
+)
+
+[2024-07-13 08:44:58] Session data at login start: Array
+(
+    [admin_id] => 79
+    [admin_username] => admin
+    [registration_closed] => 1
+)
+
+[2024-07-13 08:45:05] Session data at login start: Array
+(
+    [admin_id] => 79
+    [admin_username] => admin
+    [registration_closed] => 1
+)
+
+[2024-07-13 08:45:17] Session data at login start: Array
+(
+    [admin_id] => 79
+    [admin_username] => admin
+    [registration_closed] => 1
+)
+
+[2024-07-13 08:45:23] Session data at login start: Array
+(
+    [admin_id] => 79
+    [admin_username] => admin
+    [registration_closed] => 1
+)
+
+[2024-07-13 08:46:33] Session data at login start: Array
+(
+    [admin_id] => 79
+    [admin_username] => admin
+    [registration_closed] => 1
+)
+

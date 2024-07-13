@@ -1,0 +1,250 @@
+[2024-07-13 07:52:18] Admin login page loaded
+[2024-07-13 07:52:18] Admin user created or updated successfully
+[2024-07-13 07:52:23] Admin login page loaded
+[2024-07-13 07:52:23] Admin user created or updated successfully
+[2024-07-13 07:52:23] Login attempt - Username: admin
+[2024-07-13 07:52:23] User found: Array
+(
+    [id] => 56
+    [username] => admin
+    [password] => $2y$10$a20Z8U.on4iYZy4t/IUAa.7BMQHK8GNY.B8ERw6SaPY3Kw3XvSYJy
+    [user_role] => admin
+)
+
+[2024-07-13 07:52:23] Password verified
+[2024-07-13 07:52:23] Admin login successful. Redirecting to dashboard.
+[2024-07-13 07:53:36] Admin login page loaded
+[2024-07-13 07:53:36] Error creating/updating admin user: Column 'username' cannot be null
+[2024-07-13 07:53:41] Admin login page loaded
+[2024-07-13 07:53:41] Error creating/updating admin user: Column 'username' cannot be null
+[2024-07-13 07:53:41] Login attempt - Username: admin
+[2024-07-13 07:53:41] User found: Array
+(
+    [id] => 56
+    [username] => admin
+    [password] => $2y$10$a20Z8U.on4iYZy4t/IUAa.7BMQHK8GNY.B8ERw6SaPY3Kw3XvSYJy
+    [user_role] => admin
+)
+
+[2024-07-13 07:53:41] Password verification failed
+[2024-07-13 07:53:48] Admin login page loaded
+[2024-07-13 07:53:48] Error creating/updating admin user: Column 'username' cannot be null
+[2024-07-13 07:53:48] Login attempt - Username: admin
+[2024-07-13 07:53:48] User found: Array
+(
+    [id] => 56
+    [username] => admin
+    [password] => $2y$10$a20Z8U.on4iYZy4t/IUAa.7BMQHK8GNY.B8ERw6SaPY3Kw3XvSYJy
+    [user_role] => admin
+)
+
+[2024-07-13 07:53:48] Password verified
+[2024-07-13 07:53:48] Admin login successful. Redirecting to dashboard.
+[2024-07-13 07:54:08] Admin login page loaded
+[2024-07-13 07:54:08] Error creating/updating admin user: Column 'username' cannot be null
+[2024-07-13 07:54:14] Admin login page loaded
+[2024-07-13 07:54:14] Error creating/updating admin user: Column 'username' cannot be null
+[2024-07-13 07:54:14] Login attempt - Username: admin
+[2024-07-13 07:54:14] User found: Array
+(
+    [id] => 56
+    [username] => admin
+    [password] => $2y$10$a20Z8U.on4iYZy4t/IUAa.7BMQHK8GNY.B8ERw6SaPY3Kw3XvSYJy
+    [user_role] => admin
+)
+
+[2024-07-13 07:54:14] Password verification failed
+[2024-07-13 07:54:18] Admin login page loaded
+[2024-07-13 07:54:18] Error creating/updating admin user: Column 'username' cannot be null
+[2024-07-13 07:54:18] Login attempt - Username: admin
+[2024-07-13 07:54:18] User found: Array
+(
+    [id] => 56
+    [username] => admin
+    [password] => $2y$10$a20Z8U.on4iYZy4t/IUAa.7BMQHK8GNY.B8ERw6SaPY3Kw3XvSYJy
+    [user_role] => admin
+)
+
+[2024-07-13 07:54:18] Password verified
+[2024-07-13 07:54:18] Admin login successful. Redirecting to dashboard.
+[2024-07-13 07:55:49] Admin login page loaded
+[2024-07-13 07:55:49] Admin user created or updated successfully
+[2024-07-13 07:55:54] Admin login page loaded
+[2024-07-13 07:55:54] Admin user created or updated successfully
+[2024-07-13 07:56:03] Admin login page loaded
+[2024-07-13 07:56:03] Admin user created or updated successfully
+[2024-07-13 07:56:03] Login attempt - Username: admin
+[2024-07-13 07:56:03] User found: Array
+(
+    [id] => 56
+    [username] => admin
+    [password] => $2y$10$8JGPJNgZLMqFK6ySGYD7IOo4vlURTkVrmxJO9cdGjmE5eMzoCHl9S
+    [user_role] => admin
+)
+
+[2024-07-13 07:56:03] Password verified
+[2024-07-13 07:56:03] Admin login successful. Redirecting to dashboard.
+[2024-07-13 07:56:24] Admin login page loaded
+[2024-07-13 07:56:24] Admin user created or updated successfully
+[2024-07-13 07:56:28] Admin login page loaded
+[2024-07-13 07:56:28] Admin user created or updated successfully
+[2024-07-13 07:56:28] Login attempt - Username: admin
+[2024-07-13 07:56:28] User found: Array
+(
+    [id] => 56
+    [username] => admin
+    [password] => $2y$10$9Gbut8w1xPc3GslgieVAJePXDV/3YTEWTXgI8NFA/yhk1PZJAdk4O
+    [user_role] => admin
+)
+
+[2024-07-13 07:56:29] Password verified
+[2024-07-13 07:56:29] Admin login successful. Redirecting to dashboard.
+[2024-07-13 08:18:34] Admin login page loaded
+[2024-07-13 08:18:35] Admin user created or updated successfully
+[2024-07-13 08:18:50] Admin login page loaded
+[2024-07-13 08:18:50] Admin user created or updated successfully
+[2024-07-13 08:18:50] Login attempt - Username: admin
+[2024-07-13 08:18:50] User found: Array
+(
+    [id] => 56
+    [username] => admin
+    [password] => $2y$10$MZvUimAHilLImdP3Jn/PI.KKsimxnSwvJtU1oHPAsMKRXRlA0bCH2
+    [user_role] => admin
+)
+
+[2024-07-13 08:18:50] Password verified
+[2024-07-13 08:18:50] Admin login successful. Redirecting to dashboard.
+[2024-07-13 08:19:16] Admin login page loaded
+[2024-07-13 08:19:16] Admin user created or updated successfully
+[2024-07-13 08:19:21] Admin login page loaded
+[2024-07-13 08:19:21] Admin user created or updated successfully
+[2024-07-13 08:19:21] Login attempt - Username: admin
+[2024-07-13 08:19:21] User found: Array
+(
+    [id] => 72
+    [username] => admin
+    [password] => $2y$10$pN/Co4FbvAXOkLl1vujrpeWWZAoo0L4jzKxPSRwdq4LYWkAgRmXzC
+    [user_role] => admin
+)
+
+[2024-07-13 08:19:21] Password verified
+[2024-07-13 08:19:21] Admin login successful. Redirecting to dashboard.
+[2024-07-13 08:23:11] Admin login page loaded
+[2024-07-13 08:23:11] Admin user created or updated successfully
+[2024-07-13 08:23:16] Admin login page loaded
+[2024-07-13 08:23:16] Admin user created or updated successfully
+[2024-07-13 08:23:16] Login attempt - Username: admin
+[2024-07-13 08:23:16] User found: Array
+(
+    [id] => 72
+    [username] => admin
+    [password] => $2y$10$vAH.C1c1.cNdACwguwQfy.GvmKGns3jBzUDM6dt8nYjhWPDnKFwbO
+    [user_role] => admin
+)
+
+[2024-07-13 08:23:16] Password verified
+[2024-07-13 08:23:16] Admin login successful. Redirecting to dashboard.
+[2024-07-13 08:23:33] Admin login page loaded
+[2024-07-13 08:23:34] Admin user created or updated successfully
+[2024-07-13 08:23:41] Admin login page loaded
+[2024-07-13 08:23:41] Admin user created or updated successfully
+[2024-07-13 08:23:45] Admin login page loaded
+[2024-07-13 08:23:45] Admin user created or updated successfully
+[2024-07-13 08:23:45] Login attempt - Username: admin
+[2024-07-13 08:23:45] User found: Array
+(
+    [id] => 76
+    [username] => admin
+    [password] => $2y$10$k63iBeMxlpxLfErYC2OZxeKU5MxXfcQihLW1d/LDYcB1/0Nmpfdcu
+    [user_role] => admin
+)
+
+[2024-07-13 08:23:46] Password verified
+[2024-07-13 08:23:46] Admin login successful. Redirecting to dashboard.
+[2024-07-13 08:24:55] Admin login page loaded
+[2024-07-13 08:24:55] Failed to prepare admin user insert/update statement
+[2024-07-13 08:24:57] Admin login page loaded
+[2024-07-13 08:24:57] Failed to prepare admin user insert/update statement
+[2024-07-13 08:25:02] Admin login page loaded
+[2024-07-13 08:25:02] Failed to prepare admin user insert/update statement
+[2024-07-13 08:25:02] Login attempt - Username: admin
+[2024-07-13 08:25:02] Statement preparation failed: Unknown column 'user_role' in 'field list'
+[2024-07-13 08:25:10] Admin login page loaded
+[2024-07-13 08:25:10] Failed to prepare admin user insert/update statement
+[2024-07-13 08:25:10] Login attempt - Username: admin
+[2024-07-13 08:25:10] Statement preparation failed: Unknown column 'user_role' in 'field list'
+[2024-07-13 08:32:48] Admin login page loaded
+[2024-07-13 08:32:48] Admin user created or updated successfully
+[2024-07-13 08:32:48] Login attempt - Username: admin
+[2024-07-13 08:32:48] User found: Array
+(
+    [id] => 79
+    [username] => admin
+    [password] => $2y$10$dla8m8g.TGSXQD1epK3UAOQb8RfWXC1Yl49aFhQaC4zdb.NIwZ35.
+    [user_role] => admin
+)
+
+[2024-07-13 08:32:48] Password verified
+[2024-07-13 08:32:48] Admin login successful. Redirecting to dashboard.
+[2024-07-13 08:35:10] Admin login page loaded
+[2024-07-13 08:35:10] Admin user created or updated successfully
+[2024-07-13 08:35:16] Admin login page loaded
+[2024-07-13 08:35:16] Admin user created or updated successfully
+[2024-07-13 08:35:16] Login attempt - Username: admin
+[2024-07-13 08:35:16] User found: Array
+(
+    [id] => 79
+    [username] => admin
+    [password] => $2y$10$NkWicS.IVcexzQzfVMdjMut2iG135xFfvsRsBnCHBgUf1ZjPg43He
+    [user_role] => admin
+)
+
+[2024-07-13 08:35:16] Password verified
+[2024-07-13 08:35:16] Admin login successful. Redirecting to dashboard.
+[2024-07-13 08:49:27] Admin login page loaded
+[2024-07-13 08:49:27] Admin user created or updated successfully
+[2024-07-13 08:50:36] Admin login page loaded
+[2024-07-13 08:50:36] Admin user created or updated successfully
+[2024-07-13 08:50:42] Admin login page loaded
+[2024-07-13 08:50:42] Admin user created or updated successfully
+[2024-07-13 08:50:42] Login attempt - Username: admin
+[2024-07-13 08:50:42] User found: Array
+(
+    [id] => 79
+    [username] => admin
+    [password] => $2y$10$yaELcVFoj2JBTXlAecB.7uB6xAjqbhCFbulB3/89yH45CWaXWxGiS
+    [user_role] => admin
+)
+
+[2024-07-13 08:50:42] Password verified
+[2024-07-13 08:50:42] Admin login successful. Redirecting to dashboard.
+[2024-07-13 09:02:11] Admin login page loaded
+[2024-07-13 09:02:12] Admin user created or updated successfully
+[2024-07-13 09:02:13] Admin login page loaded
+[2024-07-13 09:02:13] Admin user created or updated successfully
+[2024-07-13 09:02:30] Admin login page loaded
+[2024-07-13 09:02:30] Admin user created or updated successfully
+[2024-07-13 09:02:30] Login attempt - Username: admin
+[2024-07-13 09:02:30] Admin found: Array
+(
+    [id] => 1
+    [username] => admin
+    [password] => $2y$10$WCLeJqcP86kglCCvR5ROUOQ2.DN1hy/yl.EzzFr3eYZ1sS.6MCSPy
+)
+
+[2024-07-13 09:02:30] Password verified
+[2024-07-13 09:02:30] Admin login successful. Redirecting to dashboard.
+[2024-07-13 09:06:30] Admin login page loaded
+[2024-07-13 09:06:30] Admin user created or updated successfully
+[2024-07-13 09:06:34] Admin login page loaded
+[2024-07-13 09:06:34] Admin user created or updated successfully
+[2024-07-13 09:06:34] Login attempt - Username: pratik
+[2024-07-13 09:06:34] Admin found: Array
+(
+    [id] => 4
+    [username] => pratik
+    [password] => $2y$10$nCviBPQMN8u55EbeHGHa2OsHQSYfo.W8MgBvS6nV4iNrGcTROqb96
+)
+
+[2024-07-13 09:06:34] Password verified
+[2024-07-13 09:06:34] Admin login successful. Redirecting to dashboard.

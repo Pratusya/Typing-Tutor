@@ -13,6 +13,9 @@ $registered_username = isset($_SESSION['registered_username']) ? $_SESSION['regi
 // Clear the session variable after using it
 unset($_SESSION['registered_username']);
 
+// Check if registration is closed
+$registration_closed = isset($_SESSION['registration_closed']) && $_SESSION['registration_closed'];
+
 // When form submitted, check and create user session.
 if (isset($_POST['username'])) {
     $username = stripslashes($_REQUEST['username']);    // removes backslashes
@@ -71,6 +74,15 @@ if (isset($_POST['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style123.css"/>
+    <script>
+    function checkRegistration() {
+        <?php if ($registration_closed): ?>
+        alert("Registration is closed. The maximum number of users (4) has been reached.");
+        return false;
+        <?php endif; ?>
+        return true;
+    }
+    </script>
 </head>
 <body>
 <form class="form" method="post" name="login">
@@ -78,7 +90,7 @@ if (isset($_POST['username'])) {
         <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true" value="<?php echo htmlspecialchars($registered_username); ?>"/>
         <input type="password" class="login-input" name="password" placeholder="Password"/>
         <input type="submit" value="Login" name="submit" class="login-button"/>
-        <p class="link">Don't have an account? <a href="registration.php">Registration Now</a></p>
+        <p class="link">Don't have an account? <a href="registration.php" onclick="return checkRegistration();">Registration Now</a></p>
         <p class="link"><a href="forgot_password.php">Forgot Password?</a></p>
     </form>
 </body>

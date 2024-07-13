@@ -8,14 +8,17 @@ require_once 'utilities.php';
 
 // Check if admin is logged in
 if (!isset($_SESSION['admin_id'])) {
-    header("location: Admin-login.php");
+    header("Location: Admin-login.php");
     exit;
 }
 
 // Function to get all users (with pagination)
-function getAllUsers($con, $page = 1, $limit = 10) {
+function getAllUsers($con, $page = 1, $limit = 10, $search = '') {
     $offset = ($page - 1) * $limit;
-    $query = "SELECT id, username, email, registration_date, last_login, user_role FROM users LIMIT ? OFFSET ?";
+    $search = '%' . $search . '%';
+    $query = "SELECT id, username, email, registration_date FROM users 
+              WHERE (username LIKE ? OR email LIKE ?)
+              LIMIT ? OFFSET ?";
     
     $stmt = mysqli_prepare($con, $query);
     if ($stmt === false) {
@@ -23,7 +26,7 @@ function getAllUsers($con, $page = 1, $limit = 10) {
         return false;
     }
     
-    if (!mysqli_stmt_bind_param($stmt, "ii", $limit, $offset)) {
+    if (!mysqli_stmt_bind_param($stmt, "ssii", $search, $search, $limit, $offset)) {
         logError("Binding parameters failed: " . mysqli_stmt_error($stmt), "error_log.txt");
         mysqli_stmt_close($stmt);
         return false;
@@ -48,26 +51,50 @@ function getAllUsers($con, $page = 1, $limit = 10) {
 }
 
 // Function to get total number of users
-function getTotalUsers($con) {
-    $query = "SELECT COUNT(*) as total FROM users";
-    $result = mysqli_query($con, $query);
-    if ($result === false) {
-        logError("Error fetching total users: " . mysqli_error($con), "error_log.txt");
+function getTotalUsers($con, $search = '') {
+    $search = '%' . $search . '%';
+    $query = "SELECT COUNT(*) as total FROM users WHERE (username LIKE ? OR email LIKE ?)";
+    $stmt = mysqli_prepare($con, $query);
+    
+    if ($stmt === false) {
+        logError("Prepare failed: " . mysqli_error($con), "error_log.txt");
         return false;
     }
+    
+    if (!mysqli_stmt_bind_param($stmt, "ss", $search, $search)) {
+        logError("Binding parameters failed: " . mysqli_stmt_error($stmt), "error_log.txt");
+        mysqli_stmt_close($stmt);
+        return false;
+    }
+    
+    if (!mysqli_stmt_execute($stmt)) {
+        logError("Execute failed: " . mysqli_stmt_error($stmt), "error_log.txt");
+        mysqli_stmt_close($stmt);
+        return false;
+    }
+    
+    $result = mysqli_stmt_get_result($stmt);
+    if ($result === false) {
+        logError("Getting result set failed: " . mysqli_stmt_error($stmt), "error_log.txt");
+        mysqli_stmt_close($stmt);
+        return false;
+    }
+    
     $row = mysqli_fetch_assoc($result);
+    mysqli_stmt_close($stmt);
     return $row['total'];
 }
 
+$search = isset($_GET['search']) ? $_GET['search'] : '';
 $page = isset($_GET['page']) ? intval($_GET['page']) : 1;
 $limit = 10;
-$users = getAllUsers($con, $page, $limit);
+$users = getAllUsers($con, $page, $limit, $search);
 
 if ($users === false) {
     die("Failed to retrieve users. Check the error log for details.");
 }
 
-$total_users = getTotalUsers($con);
+$total_users = getTotalUsers($con, $search);
 if ($total_users === false) {
     die("Failed to get total number of users. Check the error log for details.");
 }
@@ -96,7 +123,12 @@ $total_pages = ceil($total_users / $limit);
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="admin_logout.php">
+                            <a class="nav-link" href="add_admin.php">
+                                <i class="fas fa-user-plus"></i> Add New Admin
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin-logout.php">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
                         </li>
@@ -115,8 +147,28 @@ $total_pages = ceil($total_users / $limit);
                 </div>
 
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="userSearch" placeholder="Search users...">
+                    <form action="" method="get" class="row g-3">
+                        <div class="col-auto">
+                            <input type="text" class="form-control" id="search" name="search" placeholder="Search users..." value="<?php echo htmlspecialchars($search); ?>">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-3">Search</button>
+                        </div>
+                    </form>
                 </div>
+
+                <div class="mb-3">
+                    <a href="add_user.php" class="btn btn-success">
+                        <i class="fas fa-user-plus"></i> Add New User
+                    </a>
+                </div>
+
+                <?php
+                if (isset($_SESSION['success_message'])) {
+                    echo '<div class="alert alert-success">' . $_SESSION['success_message'] . '</div>';
+                    unset($_SESSION['success_message']);
+                }
+                ?>
 
                 <div class="table-responsive">
                     <table class="table table-striped table-hover">
@@ -126,8 +178,6 @@ $total_pages = ceil($total_users / $limit);
                                 <th>Username</th>
                                 <th>Email</th>
                                 <th>Registration Date</th>
-                                <th>Last Login</th>
-                                <th>User Role</th>
                                 <th>Actions</th>
                             </tr>
                         </thead>
@@ -138,8 +188,6 @@ $total_pages = ceil($total_users / $limit);
                                 <td><?php echo htmlspecialchars($user['username']); ?></td>
                                 <td><?php echo htmlspecialchars($user['email']); ?></td>
                                 <td><?php echo htmlspecialchars($user['registration_date']); ?></td>
-                                <td><?php echo htmlspecialchars($user['last_login']); ?></td>
-                                <td><?php echo htmlspecialchars($user['user_role']); ?></td>
                                 <td>
                                     <a href="edit_user.php?id=<?php echo $user['id']; ?>" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
                                     <button class="btn btn-sm btn-danger delete-user" data-id="<?php echo $user['id']; ?>"><i class="fas fa-trash"></i></button>
@@ -154,7 +202,7 @@ $total_pages = ceil($total_users / $limit);
                     <ul class="pagination">
                         <?php for ($i = 1; $i <= $total_pages; $i++): ?>
                             <li class="page-item <?php echo $i == $page ? 'active' : ''; ?>">
-                                <a class="page-link" href="?page=<?php echo $i; ?>"><?php echo $i; ?></a>
+                                <a class="page-link" href="?page=<?php echo $i; ?>&search=<?php echo urlencode($search); ?>"><?php echo $i; ?></a>
                             </li>
                         <?php endfor; ?>
                     </ul>
@@ -208,13 +256,6 @@ $total_pages = ceil($total_users / $limit);
                     error: function() {
                         alert('Error deleting user. Please try again.');
                     }
-                });
-            });
-
-            $('#userSearch').on('keyup', function() {
-                var value = $(this).val().toLowerCase();
-                $('table tbody tr').filter(function() {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                 });
             });
         });
