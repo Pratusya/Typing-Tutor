@@ -19,7 +19,7 @@ $count_row = mysqli_fetch_assoc($count_result);
 $user_count = $count_row['user_count'];
 
 // If user count is 50 or more, redirect to login page with a message
-if ($user_count >= 4) {
+if ($user_count >= 50) {
     $_SESSION['registration_closed'] = true;
     header("Location: login.php");
     exit();
@@ -177,7 +177,7 @@ if (isset($_POST['otp'])) {
                 $new_count_row = mysqli_fetch_assoc($new_count_result);
                 $new_user_count = $new_count_row['user_count'];
                 
-                if ($new_user_count >= 4) {
+                if ($new_user_count >= 50) {
                     $_SESSION['registration_closed'] = true;
                 }
                 

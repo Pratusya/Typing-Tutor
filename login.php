@@ -77,7 +77,7 @@ if (isset($_POST['username'])) {
     <script>
     function checkRegistration() {
         <?php if ($registration_closed): ?>
-        alert("Registration is closed. The maximum number of users (4) has been reached.");
+        alert("Registration is closed.");
         return false;
         <?php endif; ?>
         return true;
