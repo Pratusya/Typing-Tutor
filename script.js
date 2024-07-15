@@ -1,35 +1,35 @@
 const generalParagraphs = [
     "Their politician was, in this moment, a notour paperback. The first armless grouse is, in its own way, a gear. The coat is a wash. However, a cake is the llama of a caravan. Snakelike armies show us how playgrounds can be viscoses. Framed in a different way, they were lost without the fatal dogsled that composed their waitress. Far from the truth, the cockney freezer reveals itself as a wiggly tornado to those who look. The first hawklike sack.",
-    "Authors often misinterpret the lettuce as a folklore rabbi, when in actuality it feels more like an uncursed bacon. Pursued distances show us how mother-in-laws can be charleses. Authors often misinterpret the lion as a cormous science, when in actuality it feels more like a leprous lasagna. Recent controversy aside, their band was, in this moment, a racemed suit. The clutch of a joke becomes a togaed chair. The first pickled chess is.",
-    "In modern times the first scrawn kitten is, in its own way, an input. An ostrich is the beginner of a roast. An appressed exhaust is a gun of the mind. A recorder is a grade from the right perspective. A hygienic is the cowbell of a skin. Few can name a dun brazil that isn't a highbrow playroom. The unwished beast comes from a thorny oxygen. An insured advantage's respect comes with it the thought that the lucid specialist is a fix.",
-    "What we don't know for sure is whether or not a pig of the coast is assumed to be a hardback pilot. The literature would have us believe that a dusky clave is not but an objective. Few can name a limbate leo that isn't a sunlit silver. The bow is a mitten. However, the drawer is a bay. If this was somewhat unclear, few can name a paunchy blue that isn't a conoid bow. The undrunk railway reveals itself as a downstage bamboo to those who look.",
-    "An aunt is a bassoon from the right perspective. As far as we can estimate, some posit the melic myanmar to be less than kutcha. One cannot separate foods from blowzy bows. The scampish closet reveals itself as a sclerous llama to those who look. A hip is the skirt of a peak. Some hempy laundries are thought of simply as orchids. A gum is a trumpet from the right perspective. A freebie flight is a wrench of the mind. Some posit the croupy.",
-    "A baby is a shingle from the right perspective. Before defenses, collars were only operations. Bails are gleesome relatives. An alloy is a streetcar's debt. A fighter of the scarecrow is assumed to be a leisured laundry. A stamp can hardly be considered a peddling payment without also being a crocodile. A skill is a meteorology's fan. Their scent was, in this moment, a hidden feeling. The competitor of a bacon becomes a boxlike cougar.",
+    // "Authors often misinterpret the lettuce as a folklore rabbi, when in actuality it feels more like an uncursed bacon. Pursued distances show us how mother-in-laws can be charleses. Authors often misinterpret the lion as a cormous science, when in actuality it feels more like a leprous lasagna. Recent controversy aside, their band was, in this moment, a racemed suit. The clutch of a joke becomes a togaed chair. The first pickled chess is.",
+    // "In modern times the first scrawn kitten is, in its own way, an input. An ostrich is the beginner of a roast. An appressed exhaust is a gun of the mind. A recorder is a grade from the right perspective. A hygienic is the cowbell of a skin. Few can name a dun brazil that isn't a highbrow playroom. The unwished beast comes from a thorny oxygen. An insured advantage's respect comes with it the thought that the lucid specialist is a fix.",
+    // "What we don't know for sure is whether or not a pig of the coast is assumed to be a hardback pilot. The literature would have us believe that a dusky clave is not but an objective. Few can name a limbate leo that isn't a sunlit silver. The bow is a mitten. However, the drawer is a bay. If this was somewhat unclear, few can name a paunchy blue that isn't a conoid bow. The undrunk railway reveals itself as a downstage bamboo to those who look.",
+    // "An aunt is a bassoon from the right perspective. As far as we can estimate, some posit the melic myanmar to be less than kutcha. One cannot separate foods from blowzy bows. The scampish closet reveals itself as a sclerous llama to those who look. A hip is the skirt of a peak. Some hempy laundries are thought of simply as orchids. A gum is a trumpet from the right perspective. A freebie flight is a wrench of the mind. Some posit the croupy.",
+    // "A baby is a shingle from the right perspective. Before defenses, collars were only operations. Bails are gleesome relatives. An alloy is a streetcar's debt. A fighter of the scarecrow is assumed to be a leisured laundry. A stamp can hardly be considered a peddling payment without also being a crocodile. A skill is a meteorology's fan. Their scent was, in this moment, a hidden feeling. The competitor of a bacon becomes a boxlike cougar.",
 ];
 
-const punctuationParagraphs = [
-    "Wow! That's amazing. Have you ever thought, 'Is this real?' It's hard to believe, isn't it?",
-    "He said, 'I'm going to the store.' Then he asked, 'Do you need anything?'",
-    "The company's profits increased by 15%; however, expenses rose by 20%.",
-    "Dear Sir/Madam, I hope this email finds you well. Sincerely, John Doe.",
-    "She exclaimed, 'Oh no!' when she realized she'd forgotten her keys."
-];
+// const punctuationParagraphs = [
+//     "Wow! That's amazing. Have you ever thought, 'Is this real?' It's hard to believe, isn't it?",
+//     "He said, 'I'm going to the store.' Then he asked, 'Do you need anything?'",
+//     "The company's profits increased by 15%; however, expenses rose by 20%.",
+//     "Dear Sir/Madam, I hope this email finds you well. Sincerely, John Doe.",
+//     "She exclaimed, 'Oh no!' when she realized she'd forgotten her keys."
+// ];
 
-const numbersParagraphs = [
-    "In 2023, the population reached 8,045,311 with a growth rate of 1.2% per annum.",
-    "The company's revenue was $1,234,567.89 in Q1, $2,345,678.90 in Q2, and $3,456,789.01 in Q3.",
-    "Pi is approximately equal to 3.14159, while e is about 2.71828.",
-    "The distance to the moon is roughly 384,400 kilometers or 238,855 miles.",
-    "In binary, 42 is represented as 101010, and in hexadecimal, it's 2A."
-];
+// const numbersParagraphs = [
+//     "In 2023, the population reached 8,045,311 with a growth rate of 1.2% per annum.",
+//     "The company's revenue was $1,234,567.89 in Q1, $2,345,678.90 in Q2, and $3,456,789.01 in Q3.",
+//     "Pi is approximately equal to 3.14159, while e is about 2.71828.",
+//     "The distance to the moon is roughly 384,400 kilometers or 238,855 miles.",
+//     "In binary, 42 is represented as 101010, and in hexadecimal, it's 2A."
+// ];
 
-const codeParagraphs = [
-    "function factorial(n) { return n <= 1 ? 1 : n * factorial(n - 1); }",
-    "for (let i = 0; i < array.length; i++) { console.log(array[i]); }",
-    "const sum = numbers.reduce((acc, curr) => acc + curr, 0);",
-    "if (condition) { doSomething(); } else { doSomethingElse(); }",
-    "class Rectangle { constructor(width, height) { this.width = width; this.height = height; } }"
-];
+// const codeParagraphs = [
+//     "function factorial(n) { return n <= 1 ? 1 : n * factorial(n - 1); }",
+//     "for (let i = 0; i < array.length; i++) { console.log(array[i]); }",
+//     "const sum = numbers.reduce((acc, curr) => acc + curr, 0);",
+//     "if (condition) { doSomething(); } else { doSomethingElse(); }",
+//     "class Rectangle { constructor(width, height) { this.width = width; this.height = height; } }"
+// ];
 
 const textDisplay = document.getElementById('text-display');
 const timeLeft = document.getElementById('time-left');
@@ -79,7 +79,7 @@ function disableContextMenu(element) {
 }
 
 function updateTimeUnit() {
-    const value = parseInt(timeInput.value) || 60;
+    const value = parseInt(timeInput.value) || 600; // Default to 600 seconds (10 minutes)
     if (value >= 3600) {
         timeUnit.textContent = 'hour';
         timeInput.step = '1';
@@ -94,7 +94,7 @@ function updateTimeUnit() {
 }
 
 timeInput.addEventListener('change', () => {
-    let value = parseInt(timeInput.value) || 60;
+    let value = parseInt(timeInput.value) || 600; // Default to 600 seconds (10 minutes)
     if (timeUnit.textContent === 'hour') {
         value = Math.min(Math.max(value, 1), 24);
     } else {
@@ -167,7 +167,7 @@ function initTest() {
         cursor.style.left = `${rect.left - containerRect.left}px`;
     }
 
-    let inputTime = parseInt(timeInput.value) || 60;
+    let inputTime = parseInt(timeInput.value) || 600; // Default to 600 seconds (10 minutes)
     if (timeUnit.textContent === 'hour') {
         inputTime *= 3600;
     }
@@ -314,9 +314,9 @@ function createChart() {
                 }
             ]
         },
-        options: {
-            responsive: true,
-            scales: {
+    options: {
+        responsive: true,
+        scales: {
                 x: {
                     title: {
                         display: true,
@@ -333,11 +333,44 @@ function createChart() {
 
 function addToHistory(wpm, cpm, accuracy, errors, backspaces) {
     const li = document.createElement('li');
-    li.innerHTML = `WPM: ${wpm} | CPM: ${cpm} | Accuracy: ${accuracy}% | Errors: ${errors} | Backspaces: ${backspaces}`;
+    const now = new Date();
+    li.innerHTML = `WPM: ${wpm} | CPM: ${cpm} | Accuracy: ${accuracy}% | Errors: ${errors} | Backspaces: ${backspaces} | Time: ${now.toLocaleString()}`;
     historyList.insertBefore(li, historyList.firstChild);
-    if (historyList.children.length > 5) {
+    if (historyList.children.length > 10) {
         historyList.removeChild(historyList.lastChild);
     }
+    saveHistoryToDatabase(wpm, cpm, accuracy, errors, backspaces);
+}
+
+function updateHistory(wpm, cpm, accuracy, errors, backspaces) {
+    const data = new FormData();
+    data.append('wpm', wpm);
+    data.append('cpm', cpm);
+    data.append('accuracy', accuracy);
+    data.append('errors', errors);
+    data.append('backspaces', backspaces);
+
+    fetch('save_history.php', {
+        method: 'POST',
+        body: data
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            const historyList = document.getElementById('history-list');
+            historyList.innerHTML = ''; // Clear existing history
+            data.history.forEach(entry => {
+                const li = document.createElement('li');
+                li.textContent = `WPM: ${entry.wpm}, Accuracy: ${entry.accuracy}%, Time: ${entry.timestamp}`;
+                historyList.appendChild(li);
+            });
+        } else {
+            console.error('Error saving history:', data.error);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
 }
 
 function endTest() {
@@ -353,6 +386,7 @@ function endTest() {
     textDisplay.removeEventListener('keydown', handleKeyDown);
     enableControls();
 }
+
 function saveHistoryToDatabase(wpm, cpm, accuracy, errors, backspaces) {
     const data = new URLSearchParams();
     data.append('wpm', wpm);
@@ -361,7 +395,6 @@ function saveHistoryToDatabase(wpm, cpm, accuracy, errors, backspaces) {
     data.append('errors', errors);
     data.append('backspaces', backspaces);
     
-    // Add current date and time
     const now = new Date();
     data.append('timestamp', now.toISOString());
 
@@ -379,6 +412,26 @@ function saveHistoryToDatabase(wpm, cpm, accuracy, errors, backspaces) {
     })
     .catch(error => {
         console.error('Error saving history:', error);
+    });
+}
+
+function loadTypingHistory() {
+    fetch('get_history.php')
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            historyList.innerHTML = ''; // Clear existing history
+            data.history.forEach(entry => {
+                const li = document.createElement('li');
+                li.innerHTML = `WPM: ${entry.wpm} | CPM: ${entry.cpm} | Accuracy: ${entry.accuracy}% | Errors: ${entry.errors} | Backspaces: ${entry.backspaces} | Time: ${new Date(entry.timestamp).toLocaleString()}`;
+                historyList.appendChild(li);
+            });
+        } else {
+            console.error('Error loading history:', data.error);
+        }
+    })
+    .catch(error => {
+        console.error('Error loading history:', error);
     });
 }
 
@@ -468,6 +521,8 @@ document.addEventListener('copy', (e) => {
 // Initialize the test when the page loads
 updateTimeUnit();
 initTest();
+
+document.addEventListener('DOMContentLoaded', loadTypingHistory);
 
 // Hamburger menu functionality
 document.addEventListener('DOMContentLoaded', function() {

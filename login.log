@@ -1674,3 +1674,901 @@
     [registration_closed] => 1
 )
 
+[2024-07-13 10:50:51] Session data at login start: Array
+(
+)
+
+[2024-07-13 11:33:51] Session data at login start: Array
+(
+)
+
+[2024-07-13 11:34:14] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:00:57] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:08:56] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:09:02] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:09:02] Login attempt for user: dhruvil
+[2024-07-15 12:09:02] User data from database: Array
+(
+    [id] => 86
+    [username] => dhruvil
+    [password] => $2y$10$S.2WXq/oDWYWJrHmO9Lin.Ek0zUgDv975LBwRkYmQ6E7XajW5HMye
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [payment_status] => unpaid
+    [registration_date] => 2024-07-15 15:38:53
+    [last_login] => 
+    [verification_token] => 
+    [otp] => 
+    [paid] => 0
+    [user_role] => user
+    [verified] => 0
+)
+
+[2024-07-15 12:09:02] Password verified for user: dhruvil
+[2024-07-15 12:09:02] Email not verified for user: dhruvil
+[2024-07-15 12:10:34] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:10:34] Login attempt for user: dhruvil
+[2024-07-15 12:10:34] User data from database: Array
+(
+    [id] => 86
+    [username] => dhruvil
+    [password] => $2y$10$S.2WXq/oDWYWJrHmO9Lin.Ek0zUgDv975LBwRkYmQ6E7XajW5HMye
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:38:53
+    [last_login] => 
+    [otp] => 
+    [verified] => 0
+    [paid] => 0
+)
+
+[2024-07-15 12:10:34] Password verified for user: dhruvil
+[2024-07-15 12:10:34] Email not verified for user: dhruvil
+[2024-07-15 12:10:38] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:10:38] Login attempt for user: dhruvil
+[2024-07-15 12:10:38] User data from database: Array
+(
+    [id] => 86
+    [username] => dhruvil
+    [password] => $2y$10$S.2WXq/oDWYWJrHmO9Lin.Ek0zUgDv975LBwRkYmQ6E7XajW5HMye
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:38:53
+    [last_login] => 
+    [otp] => 
+    [verified] => 0
+    [paid] => 0
+)
+
+[2024-07-15 12:10:38] Password verified for user: dhruvil
+[2024-07-15 12:10:38] Email not verified for user: dhruvil
+[2024-07-15 12:15:16] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:15:16] Login attempt for user: dhruvil
+[2024-07-15 12:15:16] User data from database: Array
+(
+    [id] => 86
+    [username] => dhruvil
+    [password] => $2y$10$S.2WXq/oDWYWJrHmO9Lin.Ek0zUgDv975LBwRkYmQ6E7XajW5HMye
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:38:53
+    [last_login] => 
+    [otp] => 
+    [verified] => 0
+    [paid] => 0
+)
+
+[2024-07-15 12:15:16] Password verified for user: dhruvil
+[2024-07-15 12:15:16] Email not verified for user: dhruvil
+[2024-07-15 12:15:27] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:15:33] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:15:33] Login attempt for user: dhruvil
+[2024-07-15 12:15:33] User data from database: Array
+(
+    [id] => 86
+    [username] => dhruvil
+    [password] => $2y$10$S.2WXq/oDWYWJrHmO9Lin.Ek0zUgDv975LBwRkYmQ6E7XajW5HMye
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:38:53
+    [last_login] => 
+    [otp] => 
+    [verified] => 0
+    [paid] => 0
+)
+
+[2024-07-15 12:15:34] Password verified for user: dhruvil
+[2024-07-15 12:15:34] Email not verified for user: dhruvil
+[2024-07-15 12:23:05] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:23:05] Login attempt for user: dhruvil
+[2024-07-15 12:23:05] User data from database: Array
+(
+    [id] => 86
+    [username] => dhruvil
+    [password] => $2y$10$S.2WXq/oDWYWJrHmO9Lin.Ek0zUgDv975LBwRkYmQ6E7XajW5HMye
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:38:53
+    [last_login] => 
+    [otp] => 
+    [verified] => 0
+    [paid] => 0
+)
+
+[2024-07-15 12:23:05] Password verified for user: dhruvil
+[2024-07-15 12:23:05] Email not verified for user: dhruvil
+[2024-07-15 12:23:15] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:23:43] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:23:46] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:23:46] Login attempt for user: dhruvil
+[2024-07-15 12:23:46] User data from database: Array
+(
+    [id] => 87
+    [username] => dhruvil
+    [password] => $2y$10$Hv54YykTpympOZC512Z3sOD6LsvKrESMeZHOPjgUe4bvZTd7yTKDu
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:53:41
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 12:23:47] Password verified for user: dhruvil
+[2024-07-15 12:23:47] Login successful for user: dhruvil
+[2024-07-15 12:25:29] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:26:32] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:26:39] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:26:39] Login attempt for user: yash
+[2024-07-15 12:26:39] User data from database: Array
+(
+    [id] => 88
+    [username] => yash
+    [password] => $2y$10$aJYdw8MUkiu2UCQwP2Q4BO0AJxls0P.7mDQgZ3bJqXztv1/9k.qQW
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:56:30
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 12:26:39] Password verified for user: yash
+[2024-07-15 12:26:39] Login successful for user: yash
+[2024-07-15 12:27:25] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:27:34] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:27:34] Login attempt for user: dhruvil
+[2024-07-15 12:27:34] User data from database: Array
+(
+    [id] => 87
+    [username] => dhruvil
+    [password] => $2y$10$Hv54YykTpympOZC512Z3sOD6LsvKrESMeZHOPjgUe4bvZTd7yTKDu
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:53:41
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 12:27:34] Password verified for user: dhruvil
+[2024-07-15 12:27:34] Login successful for user: dhruvil
+[2024-07-15 12:28:04] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:28:11] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:28:11] Login attempt for user: yash
+[2024-07-15 12:28:11] User data from database: Array
+(
+    [id] => 88
+    [username] => yash
+    [password] => $2y$10$aJYdw8MUkiu2UCQwP2Q4BO0AJxls0P.7mDQgZ3bJqXztv1/9k.qQW
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:56:30
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 12:28:11] Password verified for user: yash
+[2024-07-15 12:28:11] Login successful for user: yash
+[2024-07-15 12:49:05] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:49:10] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:49:10] Login attempt for user: yash
+[2024-07-15 12:49:10] User data from database: Array
+(
+    [id] => 88
+    [username] => yash
+    [password] => $2y$10$aJYdw8MUkiu2UCQwP2Q4BO0AJxls0P.7mDQgZ3bJqXztv1/9k.qQW
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:56:30
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 12:49:11] Password verified for user: yash
+[2024-07-15 12:49:11] Login successful for user: yash
+[2024-07-15 12:49:32] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:49:36] Session data at login start: Array
+(
+)
+
+[2024-07-15 12:49:36] Login attempt for user: dhruvil
+[2024-07-15 12:49:36] User data from database: Array
+(
+    [id] => 87
+    [username] => dhruvil
+    [password] => $2y$10$Hv54YykTpympOZC512Z3sOD6LsvKrESMeZHOPjgUe4bvZTd7yTKDu
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:53:41
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 12:49:36] Password verified for user: dhruvil
+[2024-07-15 12:49:36] Login successful for user: dhruvil
+[2024-07-15 12:59:53] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:00:48] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => harsora2006@gmail.com
+            [phone] => 6546548798
+            [password] => 12345
+            [otp] => 345022
+            [otp_time] => 1721041244
+        )
+
+)
+
+[2024-07-15 13:00:48] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => harsora2006@gmail.com
+            [phone] => 6546548798
+            [password] => 12345
+            [otp] => 345022
+            [otp_time] => 1721041244
+        )
+
+)
+
+[2024-07-15 13:00:48] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => harsora2006@gmail.com
+            [phone] => 6546548798
+            [password] => 12345
+            [otp] => 345022
+            [otp_time] => 1721041244
+        )
+
+)
+
+[2024-07-15 13:00:52] Session data at login start: Array
+(
+    [registration] => Array
+        (
+            [username] => pratik
+            [email] => harsora2006@gmail.com
+            [phone] => 6546548798
+            [password] => 12345
+            [otp] => 345022
+            [otp_time] => 1721041244
+        )
+
+)
+
+[2024-07-15 13:00:52] Login attempt for user: dhruvil
+[2024-07-15 13:00:52] User data from database: Array
+(
+    [id] => 87
+    [username] => dhruvil
+    [password] => $2y$10$Hv54YykTpympOZC512Z3sOD6LsvKrESMeZHOPjgUe4bvZTd7yTKDu
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:53:41
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 13:00:52] Password verified for user: dhruvil
+[2024-07-15 13:00:52] Login successful for user: dhruvil
+[2024-07-15 13:35:16] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:35:19] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:35:19] Login attempt for user: dhruvil
+[2024-07-15 13:35:19] User data from database: Array
+(
+    [id] => 87
+    [username] => dhruvil
+    [password] => $2y$10$Hv54YykTpympOZC512Z3sOD6LsvKrESMeZHOPjgUe4bvZTd7yTKDu
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:53:41
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 13:35:20] Password verified for user: dhruvil
+[2024-07-15 13:35:20] Login successful for user: dhruvil
+[2024-07-15 13:44:44] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:44:46] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:44:46] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:44:46] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:44:46] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:44:53] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:44:53] Login attempt for user: yash
+[2024-07-15 13:44:53] User data from database: Array
+(
+    [id] => 88
+    [username] => yash
+    [password] => $2y$10$aJYdw8MUkiu2UCQwP2Q4BO0AJxls0P.7mDQgZ3bJqXztv1/9k.qQW
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:56:30
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 13:44:53] Password verified for user: yash
+[2024-07-15 13:44:53] Login successful for user: yash
+[2024-07-15 13:45:53] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:45:57] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:45:57] Login attempt for user: yash
+[2024-07-15 13:45:57] User data from database: Array
+(
+    [id] => 88
+    [username] => yash
+    [password] => $2y$10$aJYdw8MUkiu2UCQwP2Q4BO0AJxls0P.7mDQgZ3bJqXztv1/9k.qQW
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:56:30
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 13:45:57] Incorrect password for user: yash
+[2024-07-15 13:46:04] Session data at login start: Array
+(
+)
+
+[2024-07-15 13:46:04] Login attempt for user: yash
+[2024-07-15 13:46:04] User data from database: Array
+(
+    [id] => 88
+    [username] => yash
+    [password] => $2y$10$aJYdw8MUkiu2UCQwP2Q4BO0AJxls0P.7mDQgZ3bJqXztv1/9k.qQW
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:56:30
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 13:46:04] Password verified for user: yash
+[2024-07-15 13:46:04] Login successful for user: yash
+[2024-07-15 14:00:54] Session data at login start: Array
+(
+)
+
+[2024-07-15 14:01:31] Session data at login start: Array
+(
+    [registered_username] => meet
+)
+
+[2024-07-15 14:01:36] Session data at login start: Array
+(
+)
+
+[2024-07-15 14:01:36] Login attempt for user: meet
+[2024-07-15 14:01:36] User data from database: Array
+(
+    [id] => 89
+    [username] => meet
+    [password] => $2y$10$/4UvzafiVD1nHagUhRxnMesR5Qsm0qfLb.bq8SWABku4.k78mp51m
+    [email] => harsorapratik78@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 17:31:29
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 14:01:36] Password verified for user: meet
+[2024-07-15 14:01:36] Login successful for user: meet
+[2024-07-15 14:48:32] Session data at login start: Array
+(
+)
+
+[2024-07-15 14:48:38] Session data at login start: Array
+(
+)
+
+[2024-07-15 14:48:38] Login attempt for user: dhruvil
+[2024-07-15 14:48:38] User data from database: Array
+(
+    [id] => 87
+    [username] => dhruvil
+    [password] => $2y$10$Hv54YykTpympOZC512Z3sOD6LsvKrESMeZHOPjgUe4bvZTd7yTKDu
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 15:53:41
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 14:48:38] Password verified for user: dhruvil
+[2024-07-15 14:48:38] Login successful for user: dhruvil
+[2024-07-15 14:51:27] Session data at login start: Array
+(
+)
+
+[2024-07-15 14:52:28] Session data at login start: Array
+(
+    [registered_username] => dhruvil
+)
+
+[2024-07-15 14:52:32] Session data at login start: Array
+(
+)
+
+[2024-07-15 14:52:32] Login attempt for user: dhruvil
+[2024-07-15 14:52:32] User data from database: Array
+(
+    [id] => 90
+    [username] => dhruvil
+    [password] => $2y$10$scojttlJXQW5pwWprBP9jewfqoIYZvnAKiEYvk2vFI1Adu/B66MZ.
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 18:22:27
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 14:52:33] Password verified for user: dhruvil
+[2024-07-15 14:52:33] Login successful for user: dhruvil
+[2024-07-15 15:15:02] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:15:06] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:15:06] Login attempt for user: dfgdfgfdg
+[2024-07-15 15:15:06] User not found: dfgdfgfdg
+[2024-07-15 15:15:15] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:15:21] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:15:21] Login attempt for user: dhruvil
+[2024-07-15 15:15:21] User data from database: Array
+(
+    [id] => 90
+    [username] => dhruvil
+    [password] => $2y$10$scojttlJXQW5pwWprBP9jewfqoIYZvnAKiEYvk2vFI1Adu/B66MZ.
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 18:22:27
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 15:15:21] Incorrect password for user: dhruvil
+[2024-07-15 15:15:28] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:15:28] Login attempt for user: dhruvil
+[2024-07-15 15:15:28] User data from database: Array
+(
+    [id] => 90
+    [username] => dhruvil
+    [password] => $2y$10$scojttlJXQW5pwWprBP9jewfqoIYZvnAKiEYvk2vFI1Adu/B66MZ.
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 18:22:27
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 15:15:28] Incorrect password for user: dhruvil
+[2024-07-15 15:15:50] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:15:50] Login attempt for user: dhruvil
+[2024-07-15 15:15:50] User data from database: Array
+(
+    [id] => 90
+    [username] => dhruvil
+    [password] => $2y$10$scojttlJXQW5pwWprBP9jewfqoIYZvnAKiEYvk2vFI1Adu/B66MZ.
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 18:22:27
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 15:15:50] Incorrect password for user: dhruvil
+[2024-07-15 15:15:54] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:15:54] Login attempt for user: dhruvil
+[2024-07-15 15:15:54] User data from database: Array
+(
+    [id] => 90
+    [username] => dhruvil
+    [password] => $2y$10$scojttlJXQW5pwWprBP9jewfqoIYZvnAKiEYvk2vFI1Adu/B66MZ.
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 18:22:27
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 15:15:55] Incorrect password for user: dhruvil
+[2024-07-15 15:16:18] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:16:18] Login attempt for user: dhruvil
+[2024-07-15 15:16:18] User data from database: Array
+(
+    [id] => 90
+    [username] => dhruvil
+    [password] => $2y$10$scojttlJXQW5pwWprBP9jewfqoIYZvnAKiEYvk2vFI1Adu/B66MZ.
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 18:22:27
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 15:16:18] Incorrect password for user: dhruvil
+[2024-07-15 15:16:38] Session data at login start: Array
+(
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[2024-07-15 15:16:38] Login attempt for user: dhruvil123456
+[2024-07-15 15:16:38] User not found: dhruvil123456
+[2024-07-15 15:16:44] Session data at login start: Array
+(
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[2024-07-15 15:16:44] Login attempt for user: dhruvil
+[2024-07-15 15:16:44] User data from database: Array
+(
+    [id] => 90
+    [username] => dhruvil
+    [password] => $2y$10$scojttlJXQW5pwWprBP9jewfqoIYZvnAKiEYvk2vFI1Adu/B66MZ.
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 18:22:27
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 15:16:44] Incorrect password for user: dhruvil
+[2024-07-15 15:17:15] Session data at login start: Array
+(
+    [admin_id] => 1
+    [admin_username] => admin
+    [registered_username] => pratik
+)
+
+[2024-07-15 15:17:18] Session data at login start: Array
+(
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[2024-07-15 15:17:18] Login attempt for user: pratik
+[2024-07-15 15:17:18] User data from database: Array
+(
+    [id] => 91
+    [username] => pratik
+    [password] => $2y$10$kNp3NdUVpGWH14tPyXK50ekOOaiebMVJ6ePD1J8y8RBS7W5dX4xpO
+    [email] => pratikharsora41@gmail.com
+    [phone] => 7096441340
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 18:47:14
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 15:17:18] Password verified for user: pratik
+[2024-07-15 15:17:18] Login successful for user: pratik
+[2024-07-15 15:18:18] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:18:32] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:19:16] Session data at login start: Array
+(
+)
+
+[2024-07-15 15:20:05] Session data at login start: Array
+(
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[2024-07-15 15:20:51] Session data at login start: Array
+(
+    [admin_id] => 1
+    [admin_username] => admin
+    [registered_username] => yash
+)
+
+[2024-07-15 15:21:03] Session data at login start: Array
+(
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[2024-07-15 15:21:03] Login attempt for user: yashgohel395@gmail.com
+[2024-07-15 15:21:03] User not found: yashgohel395@gmail.com
+[2024-07-15 15:21:10] Session data at login start: Array
+(
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[2024-07-15 15:21:10] Login attempt for user: yash
+[2024-07-15 15:21:10] User data from database: Array
+(
+    [id] => 92
+    [username] => yash
+    [password] => $2y$10$fkvyB/4SNS5Bkft/2L3Ch.NUi3dr5eiGQNzBL4z86fdedDxOWdh1S
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [create_datetime] => 0000-00-00 00:00:00
+    [reset_token] => 
+    [reset_token_expires] => 
+    [registration_date] => 2024-07-15 18:50:49
+    [last_login] => 
+    [otp] => 
+    [verified] => 1
+    [paid] => 0
+)
+
+[2024-07-15 15:21:10] Password verified for user: yash
+[2024-07-15 15:21:10] Login successful for user: yash

@@ -1,13 +1,17 @@
 <?php
-error_reporting(E_ALL);
 ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Set up error logging
+ini_set('log_errors', 1);
+ini_set('error_log', 'php_errors.log');
 
 require('db.php');
 require('vendor/autoload.php');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-use Razorpay\Api\Api;
 
 session_start();
 $errors = array();
@@ -24,10 +28,6 @@ if ($user_count >= 50) {
     header("Location: login.php");
     exit();
 }
-
-// Razorpay credentials
-$razorpay_key_id = 'rzp_test_vmssaFysS6ROAD';
-$razorpay_key_secret = 'gqhigy08YKnm9y43YNeMjFmF';
 
 // AJAX email check
 if (isset($_POST['check_email'])) {
@@ -78,7 +78,7 @@ function sendOTPEmail($email, $otp) {
         //Content
         $mail->isHTML(true);
         $mail->Subject = 'Your OTP for Registration';
-        $mail->Body    = "Your OTP for registration is: <strong>$otp</strong>. This OTP will expire in 10 minutes.";
+        $mail->Body    = "Your OTP for registration is: <strong>{$otp}</strong>. This OTP will expire in 10 minutes.";
 
         $mail->send();
         return true;
@@ -144,68 +144,49 @@ if (isset($_POST['username'])) {
 // Verify OTP and complete registration
 if (isset($_POST['otp'])) {
     $entered_otp = $_POST['otp'];
-    if (isset($_SESSION['registration'])) {
-        $registration = $_SESSION['registration'];
+    
+    error_log("OTP verification started for OTP: " . $entered_otp);
+    
+    if (!isset($_SESSION['registration'])) {
+        error_log("Session 'registration' not set");
+        echo json_encode(['success' => false, 'message' => 'Session expired. Please start the registration process again.']);
+        exit;
+    }
+    
+    $registration = $_SESSION['registration'];
+    error_log("Registration data from session: " . print_r($registration, true));
+    
+    // Check if OTP is expired (10 minutes)
+    if (time() - $registration['otp_time'] > 600) {
+        error_log("OTP expired");
+        echo json_encode(['success' => false, 'message' => 'OTP expired. Please try again.']);
+        exit;
+    }
+    
+    if ($entered_otp == $registration['otp']) {
+        error_log("OTP matched");
         
-        // Check if OTP is expired (10 minutes)
-        if (time() - $registration['otp_time'] > 600) {
-            echo json_encode(['success' => false, 'message' => 'OTP expired. Please try again.']);
-            exit;
-        }
+        // OTP is correct, proceed with registration
+        $username = $registration['username'];
+        $email = $registration['email'];
+        $phone = $registration['phone'];
+        $password = password_hash($registration['password'], PASSWORD_DEFAULT);
         
-        if ($entered_otp == $registration['otp']) {
-            // OTP is correct, insert user data into the database
-            $username = $registration['username'];
-            $email = $registration['email'];
-            $phone = $registration['phone'];
-            $password = password_hash($registration['password'], PASSWORD_DEFAULT);
-            $payment_status = 'pending';
-            $create_datetime = date("Y-m-d H:i:s");
-            $otp = $registration['otp'];
-            $verified = 1; // Set to 1 as the OTP is verified
-
-            $stmt = $con->prepare("INSERT INTO users (username, email, phone, password, payment_status, create_datetime, otp, verified) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-            $stmt->bind_param("sssssssi", $username, $email, $phone, $password, $payment_status, $create_datetime, $otp, $verified);
-            
-            if ($stmt->execute()) {
-                // Clear the registration session data
-                unset($_SESSION['registration']);
-                
-                // Check if the new count has reached 50
-                $new_count_query = "SELECT COUNT(*) as user_count FROM users";
-                $new_count_result = mysqli_query($con, $new_count_query);
-                $new_count_row = mysqli_fetch_assoc($new_count_result);
-                $new_user_count = $new_count_row['user_count'];
-                
-                if ($new_user_count >= 50) {
-                    $_SESSION['registration_closed'] = true;
-                }
-                
-                // Proceed with payment initiation
-                $api = new Api($razorpay_key_id, $razorpay_key_secret);
-                $order = $api->order->create(array(
-                    'receipt' => 'rcptid_' . time(),
-                    'amount' => 2000, // Amount in paise (20 rupees)
-                    'currency' => 'INR'
-                ));
-                // Store order details in session
-                $_SESSION['razorpay_order_id'] = $order['id'];
-                // Return payment details to the client
-                echo json_encode([
-                    'success' => true,
-                    'message' => 'Email verified. Proceed to payment',
-                    'order_id' => $order['id'],
-                    'amount' => 2000,
-                    'key' => $razorpay_key_id
-                ]);
-            } else {
-                echo json_encode(['success' => false, 'message' => 'Failed to register user. Please try again.']);
-            }
+        $stmt = $con->prepare("INSERT INTO users (username, email, phone, password, verified) VALUES (?, ?, ?, ?, 1)");
+        $stmt->bind_param("ssss", $username, $email, $phone, $password);
+        
+        if ($stmt->execute()) {
+            // Registration successful
+            unset($_SESSION['registration']);
+            $_SESSION['registered_username'] = $username;
+            echo json_encode(['success' => true, 'message' => 'Registration successful. You can now log in.']);
         } else {
-            echo json_encode(['success' => false, 'message' => 'Incorrect OTP. Please try again.']);
+            // Registration failed
+            echo json_encode(['success' => false, 'message' => 'Registration failed. Please try again.']);
         }
     } else {
-        echo json_encode(['success' => false, 'message' => 'Invalid session. Please start the registration process again.']);
+        error_log("OTP mismatch. Entered: $entered_otp, Stored: " . $registration['otp']);
+        echo json_encode(['success' => false, 'message' => 'Incorrect OTP. Please try again.']);
     }
     exit;
 }
@@ -244,7 +225,6 @@ if (isset($_POST['resend_otp'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="style1.css">
-    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 </head>
 <body>
 <main>
@@ -294,14 +274,6 @@ if (isset($_POST['resend_otp'])) {
         <div id="timer"></div>
     </form>
 </main>
-
-<form name='razorpayform' id='razorpay-form' action="verify_payment.php" method="POST">
-    <input type="hidden" name="razorpay_payment_id" id="razorpay_payment_id">
-    <input type="hidden" name="razorpay_order_id" id="razorpay_order_id">
-    <input type="hidden" name="razorpay_signature" id="razorpay_signature">
-</form>
-
-
 <script>
 document.getElementById('registration-form').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -358,36 +330,8 @@ document.getElementById('otp-form').addEventListener('submit', function(e) {
     .then(response => response.json())
     .then(data => {
         if (data.success) {
-            if (data.order_id) {
-                // Proceed to payment
-                var options = {
-                    "key": data.key,
-                    "amount": data.amount,
-                    "currency": "INR",
-                    "name": "Your Company Name",
-                    "description": "Registration Fee",
-                    "order_id": data.order_id,
-                    "handler": function (response){
-                        document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
-                        document.getElementById('razorpay_order_id').value = response.razorpay_order_id;
-                        document.getElementById('razorpay_signature').value = response.razorpay_signature;
-                        document.getElementById('razorpay-form').submit();
-                    },
-                    "prefill": {
-                        "name": document.getElementById('username').value,
-                        "email": document.getElementById('email').value,
-                        "contact": document.getElementById('phone').value
-                    },
-                    "theme": {
-                        "color": "#3399cc"
-                    }
-                };
-                var rzp1 = new Razorpay(options);
-                rzp1.open();
-            } else {
-                alert(data.message);
-                window.location.href = 'login.php';
-            }
+            alert(data.message);
+            window.location.href = 'login.php';
         } else {
             alert(data.message);
             // Re-enable the verify button if OTP verification fails
@@ -516,4 +460,3 @@ document.getElementById('password').addEventListener('input', function() {
 </script>
 </body>
 </html>
-    

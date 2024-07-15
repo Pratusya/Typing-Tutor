@@ -8,24 +8,21 @@ session_start();
 
 logError("Session data at login start: " . print_r($_SESSION, true), 'login.log');
 
-// Check if there's a registered username in the session
 $registered_username = isset($_SESSION['registered_username']) ? $_SESSION['registered_username'] : '';
-// Clear the session variable after using it
 unset($_SESSION['registered_username']);
 
-// Check if registration is closed
 $registration_closed = isset($_SESSION['registration_closed']) && $_SESSION['registration_closed'];
 
-// When form submitted, check and create user session.
+$login_error = null; // Initialize login error variable
+
 if (isset($_POST['username'])) {
-    $username = stripslashes($_REQUEST['username']);    // removes backslashes
+    $username = stripslashes($_REQUEST['username']);
     $username = mysqli_real_escape_string($con, $username);
     $password = stripslashes($_REQUEST['password']);
     $password = mysqli_real_escape_string($con, $password);
     
     logError("Login attempt for user: " . $username, 'login.log');
 
-    // Check user is exist in the database
     $stmt = $con->prepare("SELECT * FROM `users` WHERE username = ?");
     $stmt->bind_param("s", $username);
     $stmt->execute();
@@ -45,24 +42,15 @@ if (isset($_POST['username'])) {
                 exit();
             } else {
                 logError("Email not verified for user: " . $username, 'login.log');
-                echo "<div class='form'>
-                      <h3>Your email is not verified.</h3><br/>
-                      <p class='link'>Please check your email for the verification OTP.</p>
-                      </div>";
+                $login_error = "Your email is not verified. Please check your email for the verification OTP.";
             }
         } else {
             logError("Incorrect password for user: " . $username, 'login.log');
-            echo "<div class='form'>
-                  <h3>Incorrect Username/password.</h3><br/>
-                  <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
-                  </div>";
+            $login_error = "Incorrect Username/password.";
         }
     } else {
         logError("User not found: " . $username, 'login.log');
-        echo "<div class='form'>
-              <h3>Incorrect Username/password.</h3><br/>
-              <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
-              </div>";
+        $login_error = "Incorrect Username/password.";
     }
 }
 ?>
@@ -82,10 +70,16 @@ if (isset($_POST['username'])) {
         <?php endif; ?>
         return true;
     }
+
+    <?php if ($login_error): ?>
+    window.onload = function() {
+        alert("<?php echo addslashes($login_error); ?>");
+    }
+    <?php endif; ?>
     </script>
 </head>
 <body>
-<form class="form" method="post" name="login">
+    <form class="form" method="post" name="login">
         <h1 class="login-title">Login</h1>
         <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true" value="<?php echo htmlspecialchars($registered_username); ?>"/>
         <input type="password" class="login-input" name="password" placeholder="Password"/>

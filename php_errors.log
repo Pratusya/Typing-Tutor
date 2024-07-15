@@ -1,0 +1,3559 @@
+[13-Jul-2024 13:36:37 Europe/Berlin] OTP verification started for OTP: 240269
+[13-Jul-2024 13:36:37 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 240269
+    [otp_time] => 1720870582
+)
+
+[13-Jul-2024 13:36:37 Europe/Berlin] OTP matched
+[13-Jul-2024 13:36:37 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:36:38 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(181): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:42:58 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 240269
+            [otp_time] => 1720870582
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:43:00 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 240269
+            [otp_time] => 1720870582
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:43:02 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 240269
+            [otp_time] => 1720870582
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:43:08 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 240269
+            [otp_time] => 1720870582
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:43:08 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 561154
+    [otp_time] => 1720870988
+)
+
+[13-Jul-2024 13:43:13 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 13:43:20 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 561154
+            [otp_time] => 1720870988
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:43:20 Europe/Berlin] OTP verification started for OTP: 561154
+[13-Jul-2024 13:43:20 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 561154
+            [otp_time] => 1720870988
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:43:20 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 561154
+    [otp_time] => 1720870988
+)
+
+[13-Jul-2024 13:43:20 Europe/Berlin] OTP matched
+[13-Jul-2024 13:43:20 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:43:20 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:43:27 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 561154
+            [otp_time] => 1720870988
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:43:27 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 561154
+            [otp_time] => 1720870988
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:44:31 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 561154
+            [otp_time] => 1720870988
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:44:32 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 561154
+            [otp_time] => 1720870988
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:44:41 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 561154
+            [otp_time] => 1720870988
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:44:41 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 880568
+    [otp_time] => 1720871081
+)
+
+[13-Jul-2024 13:44:45 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 13:44:49 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:44:50 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:26 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:32 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:32 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:33 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:33 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:35 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:36 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:42 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 880568
+            [otp_time] => 1720871081
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:42 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 739233
+    [otp_time] => 1720871202
+)
+
+[13-Jul-2024 13:46:46 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 13:46:46 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 739233
+            [otp_time] => 1720871202
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:46 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 005156
+    [otp_time] => 1720871206
+)
+
+[13-Jul-2024 13:46:50 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 13:46:50 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 005156
+            [otp_time] => 1720871206
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:46:50 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:46:54 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 13:47:09 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:09 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:09 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:09 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:09 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:09 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:09 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:12 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:12 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:12 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:12 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:12 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:12 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:12 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:19 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:19 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:19 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:19 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:19 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:19 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:20 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:20 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:20 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:20 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:20 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:20 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:20 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:20 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:20 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:20 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:20 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:20 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:20 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:20 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:20 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:20 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:20 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:20 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:20 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:20 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:20 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:21 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:21 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:21 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:21 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:21 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:21 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:21 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:21 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:21 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:21 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:21 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:21 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:21 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:21 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:21 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:21 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:21 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:21 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:22 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:22 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:22 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:22 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:22 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:22 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:22 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:22 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:22 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:22 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:22 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:22 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:22 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:22 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:22 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:22 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:22 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:22 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:22 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:22 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:23 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:23 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:23 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:23 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:23 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:23 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:23 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:23 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:23 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:23 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:23 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:23 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:23 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:23 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:23 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:23 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:23 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:23 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:23 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:23 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:23 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:24 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:24 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:24 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:24 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:24 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:24 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:24 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:24 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:24 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:24 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:24 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:24 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:24 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:24 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:24 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:24 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:24 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:24 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:25 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:25 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:25 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:25 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:25 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:25 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:25 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:47:25 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:25 Europe/Berlin] OTP verification started for OTP: 568070
+[13-Jul-2024 13:47:25 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:47:25 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 568070
+    [otp_time] => 1720871210
+)
+
+[13-Jul-2024 13:47:25 Europe/Berlin] OTP matched
+[13-Jul-2024 13:47:25 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:47:25 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(188): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:56:55 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:56:57 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:56:58 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:57:05 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 1234
+            [otp] => 568070
+            [otp_time] => 1720871210
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:57:05 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 847468
+    [otp_time] => 1720871825
+)
+
+[13-Jul-2024 13:57:10 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 13:57:23 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:57:23 Europe/Berlin] OTP verification started for OTP: 847468
+[13-Jul-2024 13:57:23 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:57:23 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 847468
+    [otp_time] => 1720871825
+)
+
+[13-Jul-2024 13:57:23 Europe/Berlin] OTP matched
+[13-Jul-2024 13:57:23 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:57:23 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(189): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:58:11 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:58:11 Europe/Berlin] OTP verification started for OTP: 847468
+[13-Jul-2024 13:58:11 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:58:11 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 847468
+    [otp_time] => 1720871825
+)
+
+[13-Jul-2024 13:58:11 Europe/Berlin] OTP matched
+[13-Jul-2024 13:58:11 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:58:12 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(189): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 13:58:53 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:58:53 Europe/Berlin] OTP verification started for OTP: 847468
+[13-Jul-2024 13:58:53 Europe/Berlin] Full session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 13:58:53 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 847468
+    [otp_time] => 1720871825
+)
+
+[13-Jul-2024 13:58:53 Europe/Berlin] OTP matched
+[13-Jul-2024 13:58:53 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 13:58:53 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(189): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:01:40 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:01:40 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:01:40 Europe/Berlin] OTP verification attempt - Entered OTP: 847468
+[13-Jul-2024 14:01:40 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:01:40 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 847468
+    [otp_time] => 1720871825
+)
+
+[13-Jul-2024 14:01:40 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:01:40 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:01:40 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:01:43 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:01:43 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:01:45 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:01:45 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:01:46 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:01:46 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:02:01 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:02:01 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 847468
+            [otp_time] => 1720871825
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:02:01 Europe/Berlin] Generated OTP: 605723
+[13-Jul-2024 14:02:01 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123123
+    [otp] => 605723
+    [otp_time] => 1720872121
+)
+
+[13-Jul-2024 14:02:05 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 14:02:15 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:02:15 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:02:15 Europe/Berlin] OTP verification attempt - Entered OTP: 605723
+[13-Jul-2024 14:02:15 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:02:15 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123123
+    [otp] => 605723
+    [otp_time] => 1720872121
+)
+
+[13-Jul-2024 14:02:15 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:02:15 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:02:15 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:02:16 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:02:16 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:02:16 Europe/Berlin] OTP verification attempt - Entered OTP: 605723
+[13-Jul-2024 14:02:16 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:02:16 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123123
+    [otp] => 605723
+    [otp_time] => 1720872121
+)
+
+[13-Jul-2024 14:02:16 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:02:16 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:02:16 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:02:16 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:02:16 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:02:16 Europe/Berlin] OTP verification attempt - Entered OTP: 605723
+[13-Jul-2024 14:02:16 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:02:16 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123123
+    [otp] => 605723
+    [otp_time] => 1720872121
+)
+
+[13-Jul-2024 14:02:16 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:02:16 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:02:17 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:04:31 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:04:31 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:04:33 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:04:33 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:04:35 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:04:35 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:04:40 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:04:40 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 605723
+            [otp_time] => 1720872121
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:04:40 Europe/Berlin] Generated OTP: 457633
+[13-Jul-2024 14:04:40 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123123
+    [otp] => 457633
+    [otp_time] => 1720872280
+)
+
+[13-Jul-2024 14:04:44 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 14:04:57 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:04:57 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:04:57 Europe/Berlin] OTP verification attempt - Entered OTP: 457633
+[13-Jul-2024 14:04:57 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:04:57 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123123
+    [otp] => 457633
+    [otp_time] => 1720872280
+)
+
+[13-Jul-2024 14:04:57 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:04:57 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:04:57 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:04:58 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:04:58 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:04:58 Europe/Berlin] OTP verification attempt - Entered OTP: 457633
+[13-Jul-2024 14:04:58 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:04:58 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123123
+    [otp] => 457633
+    [otp_time] => 1720872280
+)
+
+[13-Jul-2024 14:04:58 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:04:58 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:04:58 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:08:00 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:08:00 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:08:00 Europe/Berlin] OTP verification attempt - Entered OTP: 457633
+[13-Jul-2024 14:08:00 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:08:00 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123123
+    [otp] => 457633
+    [otp_time] => 1720872280
+)
+
+[13-Jul-2024 14:08:00 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:08:00 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:08:00 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:08:00 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:08:00 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:08:00 Europe/Berlin] OTP verification attempt - Entered OTP: 457633
+[13-Jul-2024 14:08:00 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:08:00 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123123
+    [otp] => 457633
+    [otp_time] => 1720872280
+)
+
+[13-Jul-2024 14:08:00 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:08:00 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:08:00 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:08:17 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:08:17 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:13:03 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:13:03 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:13:06 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:13:06 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:13:07 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:13:07 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:13:12 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:13:12 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123123
+            [otp] => 457633
+            [otp_time] => 1720872280
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:13:12 Europe/Berlin] Generated OTP: 725695
+[13-Jul-2024 14:13:12 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 725695
+    [otp_time] => 1720872792
+)
+
+[13-Jul-2024 14:13:17 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 14:13:31 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:13:31 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:13:31 Europe/Berlin] OTP verification attempt - Entered OTP: 725695
+[13-Jul-2024 14:13:31 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:13:31 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 725695
+    [otp_time] => 1720872792
+)
+
+[13-Jul-2024 14:13:31 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:13:31 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:13:31 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:17:15 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:17:15 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:16 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:17:16 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:16 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:17:16 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:16 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:17:16 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:17 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:17:17 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:18 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:17:18 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:19 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:17:19 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:24 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:17:24 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 725695
+            [otp_time] => 1720872792
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:24 Europe/Berlin] Generated OTP: 004432
+[13-Jul-2024 14:17:24 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 004432
+    [otp_time] => 1720873044
+)
+
+[13-Jul-2024 14:17:29 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 14:17:40 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:17:40 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 004432
+            [otp_time] => 1720873044
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:40 Europe/Berlin] OTP verification attempt - Entered OTP: 004432
+[13-Jul-2024 14:17:40 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 004432
+            [otp_time] => 1720873044
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:17:40 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 004432
+    [otp_time] => 1720873044
+)
+
+[13-Jul-2024 14:17:40 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:17:40 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:17:40 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:19:56 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:19:56 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 004432
+            [otp_time] => 1720873044
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:19:56 Europe/Berlin] OTP verification attempt - Entered OTP: 004432
+[13-Jul-2024 14:19:56 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 004432
+            [otp_time] => 1720873044
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:19:56 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 004432
+    [otp_time] => 1720873044
+)
+
+[13-Jul-2024 14:19:56 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:19:56 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:19:56 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[13-Jul-2024 14:22:38 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:22:38 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 004432
+            [otp_time] => 1720873044
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:22:40 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:22:40 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 004432
+            [otp_time] => 1720873044
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:22:44 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:22:44 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 004432
+            [otp_time] => 1720873044
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:22:50 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:22:50 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 004432
+            [otp_time] => 1720873044
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:22:50 Europe/Berlin] Generated OTP: 911234
+[13-Jul-2024 14:22:50 Europe/Berlin] Registration data stored in session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 911234
+    [otp_time] => 1720873370
+)
+
+[13-Jul-2024 14:22:54 Europe/Berlin] OTP email sent successfully to: pratusyaharsora@gmail.com
+[13-Jul-2024 14:23:11 Europe/Berlin] Session ID: 4j1uj1c96plj9ae9r6sibkmfgf
+[13-Jul-2024 14:23:11 Europe/Berlin] Initial session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 911234
+            [otp_time] => 1720873370
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:23:11 Europe/Berlin] OTP verification attempt - Entered OTP: 911234
+[13-Jul-2024 14:23:11 Europe/Berlin] Session data: Array
+(
+    [registration] => Array
+        (
+            [username] => dhruvil
+            [email] => pratusyaharsora@gmail.com
+            [phone] => 7096441340
+            [password] => 123
+            [otp] => 911234
+            [otp_time] => 1720873370
+        )
+
+    [admin_id] => 1
+    [admin_username] => admin
+)
+
+[13-Jul-2024 14:23:11 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 911234
+    [otp_time] => 1720873370
+)
+
+[13-Jul-2024 14:23:11 Europe/Berlin] OTP matched successfully
+[13-Jul-2024 14:23:11 Europe/Berlin] Initiating Razorpay order creation
+[13-Jul-2024 14:23:11 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(191): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[15-Jul-2024 12:01:25 Europe/Berlin] OTP verification started for OTP: 781414
+[15-Jul-2024 12:01:25 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 781414
+    [otp_time] => 1721037667
+)
+
+[15-Jul-2024 12:01:25 Europe/Berlin] OTP matched
+[15-Jul-2024 12:01:25 Europe/Berlin] Initiating Razorpay order creation
+[15-Jul-2024 12:01:25 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(181): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[15-Jul-2024 12:03:04 Europe/Berlin] OTP verification started for OTP: 781414
+[15-Jul-2024 12:03:04 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 781414
+    [otp_time] => 1721037667
+)
+
+[15-Jul-2024 12:03:04 Europe/Berlin] OTP matched
+[15-Jul-2024 12:03:04 Europe/Berlin] Initiating Razorpay order creation
+[15-Jul-2024 12:03:04 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(181): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[15-Jul-2024 12:03:29 Europe/Berlin] OTP verification started for OTP: 962143
+[15-Jul-2024 12:03:29 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 962143
+    [otp_time] => 1721037795
+)
+
+[15-Jul-2024 12:03:29 Europe/Berlin] OTP matched
+[15-Jul-2024 12:03:29 Europe/Berlin] Initiating Razorpay order creation
+[15-Jul-2024 12:03:29 Europe/Berlin] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Authentication failed in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(110): Razorpay\Api\Request->processError(Array, 401, Object(WpOrg\Requests\Response))
+#1 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php(59): Razorpay\Api\Request->checkErrors(Object(WpOrg\Requests\Response))
+#2 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(93): Razorpay\Api\Request->request('POST', 'https://api.raz...', '{"receipt":"rcp...', 'v1')
+#3 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', '{"receipt":"rcp...')
+#4 C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Order.php(18): Razorpay\Api\Entity->create('{"receipt":"rcp...')
+#5 C:\xampp\htdocs\Typing-Tutor2\registration.php(181): Razorpay\Api\Order->create('{"receipt":"rcp...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Typing-Tutor2\vendor\razorpay\razorpay\src\Request.php on line 143
+[15-Jul-2024 12:08:53 Europe/Berlin] OTP verification started for OTP: 825035
+[15-Jul-2024 12:08:53 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 1234
+    [otp] => 825035
+    [otp_time] => 1721038113
+)
+
+[15-Jul-2024 12:08:53 Europe/Berlin] OTP matched
+[15-Jul-2024 12:23:41 Europe/Berlin] OTP verification started for OTP: 223765
+[15-Jul-2024 12:23:41 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 223765
+    [otp_time] => 1721039004
+)
+
+[15-Jul-2024 12:23:41 Europe/Berlin] OTP matched
+[15-Jul-2024 12:26:30 Europe/Berlin] OTP verification started for OTP: 404194
+[15-Jul-2024 12:26:30 Europe/Berlin] Registration data from session: Array
+(
+    [username] => yash
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [password] => 123456
+    [otp] => 404194
+    [otp_time] => 1721039174
+)
+
+[15-Jul-2024 12:26:30 Europe/Berlin] OTP matched
+[15-Jul-2024 14:01:29 Europe/Berlin] OTP verification started for OTP: 005523
+[15-Jul-2024 14:01:29 Europe/Berlin] Registration data from session: Array
+(
+    [username] => meet
+    [email] => harsorapratik78@gmail.com
+    [phone] => 7096441340
+    [password] => 1234567
+    [otp] => 005523
+    [otp_time] => 1721044870
+)
+
+[15-Jul-2024 14:01:29 Europe/Berlin] OTP matched
+[15-Jul-2024 14:52:27 Europe/Berlin] OTP verification started for OTP: 323520
+[15-Jul-2024 14:52:27 Europe/Berlin] Registration data from session: Array
+(
+    [username] => dhruvil
+    [email] => pratusyaharsora@gmail.com
+    [phone] => 7096441340
+    [password] => 123456
+    [otp] => 323520
+    [otp_time] => 1721047929
+)
+
+[15-Jul-2024 14:52:27 Europe/Berlin] OTP matched
+[15-Jul-2024 15:17:14 Europe/Berlin] OTP verification started for OTP: 022223
+[15-Jul-2024 15:17:14 Europe/Berlin] Registration data from session: Array
+(
+    [username] => pratik
+    [email] => pratikharsora41@gmail.com
+    [phone] => 7096441340
+    [password] => 123
+    [otp] => 022223
+    [otp_time] => 1721049418
+)
+
+[15-Jul-2024 15:17:14 Europe/Berlin] OTP matched
+[15-Jul-2024 15:20:49 Europe/Berlin] OTP verification started for OTP: 946795
+[15-Jul-2024 15:20:49 Europe/Berlin] Registration data from session: Array
+(
+    [username] => yash
+    [email] => yashgohel395@gmail.com
+    [phone] => 7046547026
+    [password] => 123456
+    [otp] => 946795
+    [otp_time] => 1721049625
+)
+
+[15-Jul-2024 15:20:49 Europe/Berlin] OTP matched
